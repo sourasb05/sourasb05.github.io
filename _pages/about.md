@@ -11,7 +11,7 @@ redirect_from:
 
 Welcome to my corner of the web!
 
-I am a **Principal Research Fellow** in machine learning at [University College London](https://www.ucl.ac.uk) ([Centre for Artificial Intelligence](https://www.ucl.ac.uk/ai-centre/), [Department of Computer Science](https://www.ucl.ac.uk/computer-science/)) and a **tenured research scientist** at [Inria](http://www.inria.fr/) (affiliated with the [Modal research team](https://team.inria.fr/modal/) from the [Lille - Nord Europe research centre](https://www.inria.fr/fr/centre-inria-lille-nord-europe)). I am also a **Turing Fellow** at [The Alan Turing Institute](https://www.turing.ac.uk).
+I am a **Doctoral (Ph.D) Student* in Federated learning at [Umeå University](https://www.umu.se/en/) ([Autonomous Distributed System Lab](https://www.umu.se/en/research/groups/autonomous-distributed-systems-lab/), [Department of Computer Science](https://www.umu.se/en/department-of-computing-science/)). My Ph.D is funded by **WASP** (https://wasp-sweden.org/).
 
 I am a member of the [ELLIS society](https://ellis.eu) (and more precisely of its [UCL Unit](https://ucl-ellis.github.io)) and a Fellow of the [Royal Statistical Society](https://rss.org.uk) (member of the [Computational Statistics and Machine Learning](https://rss.org.uk/membership/rss-groups-and-committees/sections/statistical-computing/) section). I am a fellow of [ICA4](https://www.intercontinental-academia.org/fellows) (Intercontinental Academia on Intelligence and Artificial Intelligence).
 
