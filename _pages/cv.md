@@ -18,15 +18,13 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Spring, 2022 : Teaching Associate
+  * Umeå University
+  * Course Name : 5DV171 Operating Systems
+* August, 2018- June, 2020: Research Fellow
+  * Indian Institute of Technology Patna, India
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+
   
 Skills
 ======
