@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. in Computer Science Honours, St. Xavier's College(Autonomous under University of Calcutta), Kolkata, India, 2014
+* M.Sc. in Computer and Information Science, University of Calcutta, Kolkata, India, 2016
+* M.Tech. in Computer Science and Engineering, University of Calcutta, Kolkata, India, 2018
+* Ph.D. in Federated Learning and Optimization, Umeå University, Umeå, Sweden 2024 (expected)
 
 Work experience
 ======
