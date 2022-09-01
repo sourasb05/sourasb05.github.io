@@ -55,12 +55,8 @@ You might want to visit companion websites:
 
 ### In a nutshell
 
-- *2021--present:* **Turing Fellow**, [The Alan Turing Institute](https://www.turing.ac.uk), UK
-- *2018--present*: **Principal Research Fellow**, [University College London](https://www.ucl.ac.uk), [Department of Computer Science](https://www.ucl.ac.uk/computer-science/), UK
-- *2014--present*: **tenured research scientist**, [Inria](http://www.inria.fr/), France
-- 2014: **postdoctoral researcher**, [Sorbonne Université](https://www.sorbonne-universite.fr), France
-- 2011--2013: **PhD student** in mathematical statistics, [Sorbonne Université](https://www.sorbonne-universite.fr) and [Télécom Paris](https://www.telecom-paris.fr), France. Supervisors: [Gérard Biau](http://www.lpsm.paris/pageperso/biau/) and [Eric Moulines](https://scholar.google.fr/citations?user=_XE1LvQAAAAJ&hl=fr). Obtained with highest honors.     
-[PhD thesis](https://tel.archives-ouvertes.fr/tel-00922353) [(pdf)](https://tel.archives-ouvertes.fr/tel-00922353/document)
-- 2010--2011: **research assistant** at [DTU Compute](https://www.compute.dtu.dk), Denmark. Supervisor: [Gilles Guillot](https://scholar.google.com/citations?user=F3vNjskAAAAJ&hl=fr)
-- 2009-2010: **MSc student** in pure and applied mathematics, [Sorbonne Université](https://www.sorbonne-universite.fr), France
-
+- *2020--present:* **WASP Ph.D Student**, [Umeå University](https://www.umu.se), Sweden
+- *2018--2020: **Research Fellow**, [Indian Institute of Technology Patna](https://www.iitp.ac.in), [Department of Computer Science and engineering](), India
+- *2016--2018: **Master of Technology**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
+- *2014--2016: **Master of Science**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
+- *2011--2014: **Bachelor of Science (Hons.)**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
