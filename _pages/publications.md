@@ -10,11 +10,9 @@ You can find my publications on the following systems.
   
 <a href="https://dblp.org/pid/255/9829.html"><i class="ai ai-fw ai-dblp"></i> dblp</a>   
 <a href="https://scholar.google.co.in/citations?user=x5fi0xUAAAAJ&hl=en"><i class="ai ai-fw ai-google-scholar"></i> Google Scholar</a>   
-<a href="https://www.researchgate.net/profile/Benjamin_Guedj"><i class="ai ai-fw ai-google-scholar"></i> ResearchGate</a>   
-<a href="{{ site.author.orcid }}"><i class="ai ai-fw ai-orcid"></i> ORCID</a>    
-<a href="https://publons.com/researcher/3156326/benjamin-guedj/"><i class="ai ai-fw ai-publons"></i> Publons</a>     
-<a href="{{ site.author.researchgate }}"><i class="ai ai-fw ai-researchgate"></i> ResearchGate</a>     
-<a href="https://www.semanticscholar.org/author/Benjamin-Guedj/3383281"><i class="ai ai-fw ai-semanticscholar"></i> Semantic Scholar</a>     
+<a href="https://www.researchgate.net/profile/Sourasekhar-Banerjee"><i class="ai ai-fw ai-researchgate"></i> ResearchGate</a>   
+<a href="https://orcid.org/0000-0002-3451-2851"><i class="ai ai-fw ai-orcid"></i> ORCID</a>    
+<a href="https://publons.com/wos-op/researcher/1445440/sourav-banerjee/"><i class="ai ai-fw ai-publons"></i> Publons</a>     
 
 You can download my [own bibtex file](https://bguedj.github.io/files/bguedj-publications.bib) which serves to generate the list below (which might take a few seconds to appear depending on your connection).
 
