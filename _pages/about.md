@@ -29,12 +29,12 @@ You might want to visit companion websites:
 ## Contact
 
 <address>
-  NAT.B2.206 Umeå Universitye<br />Office 1.25L<br />90 Umeå<br /> Sweden
+  Umeå Universitye<br />Office NAT.B2.206 Natural Science building 2nd floor (i.e., entrance floor)  <br />90187 Umeå <br /> Sweden
 </address>
 <br>
-<!-- ([see on Google Maps](https://goo.gl/maps/5JmzYNJTt8hZufbZA)) -->
+<!-- ([see on Google Maps](63.819928924827565, 20.307784986027702)) -->
 
-<iframe src="https://www.google.com/maps/dir/63.819485,20.3074522/Ume%C3%A5+universitet+Teknisk-naturvetenskaplig+fakultet,+F%C3%B6rvaltningshuset+Hus+D,+901+87+Ume%C3%A5/@63.819771,20.3051939,16.97z/data=!4m13!1m2!2m1!1snatural+science+building+umea+university!4m9!1m1!4e1!1m5!1m1!1s0x467c5b0c462a1e55:0xbd7128fb2ca54b62!2m2!1d20.3081764!2d63.8200482!3e3" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe src="https://www.google.com/maps/place/Ume%C3%A5+University+Department+of+Science+and+Mathematics+Education/@63.8201313,20.3066155,18z/data=!3m1!5s0x467c5afc66f6c689:0xa764d29a0128a25!4m5!3m4!1s0x467c5afc505d2c93:0xe6eea1a12e8a0f10!8m2!3d63.8199444!4d20.3078048" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 
 <!-- I obtained a Ph.D. in mathematics in 2013 from [UPMC](http://www.upmc.fr/) (Université Pierre & Marie Curie, France) under the supervision of [Gérard Biau](http://www.lsta.upmc.fr/biau.html) and [Éric Moulines](https://scholar.google.fr/citations?user=_XE1LvQAAAAJ&hl=fr). Prior to that, I was a research assistant at [DTU Compute](http://www.compute.dtu.dk/) (Denmark) supervised by [Gilles Guillot](http://www2.imm.dtu.dk/~gigu/#).
