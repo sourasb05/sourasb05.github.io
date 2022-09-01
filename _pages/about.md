@@ -11,14 +11,11 @@ redirect_from:
 
 Welcome to my corner of the web!
 
-I am a **Doctoral (Ph.D) Student* in Federated learning at [Umeå University](https://www.umu.se/en/) ([Autonomous Distributed System Lab](https://www.umu.se/en/research/groups/autonomous-distributed-systems-lab/), [Department of Computer Science](https://www.umu.se/en/department-of-computing-science/)). My Ph.D is funded by **WASP** (https://wasp-sweden.org/).
+I am a **Doctoral (Ph.D) Student** in Federated learning at [Umeå University](https://www.umu.se/en/) ([Autonomous Distributed System Lab](https://www.umu.se/en/research/groups/autonomous-distributed-systems-lab/), [Department of Computer Science](https://www.umu.se/en/department-of-computing-science/)). My Ph.D is funded by [WASP] (https://wasp-sweden.org/).
 
-I am a member of the [ELLIS society](https://ellis.eu) (and more precisely of its [UCL Unit](https://ucl-ellis.github.io)) and a Fellow of the [Royal Statistical Society](https://rss.org.uk) (member of the [Computational Statistics and Machine Learning](https://rss.org.uk/membership/rss-groups-and-committees/sections/statistical-computing/) section). I am a fellow of [ICA4](https://www.intercontinental-academia.org/fellows) (Intercontinental Academia on Intelligence and Artificial Intelligence).
-
-I serve as the scientific director of [The Inria London Programme](https://london.inria.fr), a joint structure to foster scientific collaboration between [Inria](http://www.inria.fr/) and [University College London](https://www.ucl.ac.uk) as part of a strategic France-UK partnership. Some more details in [this press news](https://www.inria.fr/fr/machine-learning-comment-allier-performance-dapprentissage-et-sobriete-numerique).
+I am a member of the [IEE](),[ACM](), [APNNS]()
 
 You might want to visit companion websites:
-- [my previous website]((https://bguedj.github.io/website-2016-2020-deprecated/)) (2016-2020, now deprecated)
 <!-- [https://bguedj.github.io/website-2016-2020-deprecated/](https://bguedj.github.io/website-2016-2020-deprecated/) -->
 - the website for the [6PAC joint research team](https://bguedj.github.io/6pac/) I was a co-leader of
 <!-- [https://bguedj.github.io/6pac/](https://bguedj.github.io/6pac/) -->
@@ -32,12 +29,12 @@ You might want to visit companion websites:
 ## Contact
 
 <address>
-  UCL Centre for Artificial Intelligence<br />Office 1.25L<br />90 High Holborn<br /> WC1V 6LJ London<br /> United Kingdom
+  NAT.B2.206 Umeå Universitye<br />Office 1.25L<br />90 Umeå<br /> Sweden
 </address>
 <br>
 <!-- ([see on Google Maps](https://goo.gl/maps/5JmzYNJTt8hZufbZA)) -->
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4965.579778013099!2d-0.12450412319706675!3d51.51707062522409!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b3585a9c137%3A0xffe1d0c346654ca5!2s90%20High%20Holborn%2C%20Holborn%2C%20London%20WC1V%206LJ!5e0!3m2!1sfr!2suk!4v1588107506410!5m2!1sfr!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe src="https://www.google.com/maps/dir/63.819485,20.3074522/Ume%C3%A5+universitet+Teknisk-naturvetenskaplig+fakultet,+F%C3%B6rvaltningshuset+Hus+D,+901+87+Ume%C3%A5/@63.819771,20.3051939,16.97z/data=!4m13!1m2!2m1!1snatural+science+building+umea+university!4m9!1m1!4e1!1m5!1m1!1s0x467c5b0c462a1e55:0xbd7128fb2ca54b62!2m2!1d20.3081764!2d63.8200482!3e3" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 
 <!-- I obtained a Ph.D. in mathematics in 2013 from [UPMC](http://www.upmc.fr/) (Université Pierre & Marie Curie, France) under the supervision of [Gérard Biau](http://www.lsta.upmc.fr/biau.html) and [Éric Moulines](https://scholar.google.fr/citations?user=_XE1LvQAAAAJ&hl=fr). Prior to that, I was a research assistant at [DTU Compute](http://www.compute.dtu.dk/) (Denmark) supervised by [Gilles Guillot](http://www2.imm.dtu.dk/~gigu/#).
@@ -55,8 +52,8 @@ You might want to visit companion websites:
 
 ### In a nutshell
 
-- *2020--present:* **WASP Ph.D Student**, [Umeå University](https://www.umu.se), Sweden
-- *2018--2020: **Research Fellow**, [Indian Institute of Technology Patna](https://www.iitp.ac.in), [Department of Computer Science and engineering](), India
-- *2016--2018: **Master of Technology**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
-- *2014--2016: **Master of Science**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
-- *2011--2014: **Bachelor of Science (Hons.)**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
+- 2020--present:* **WASP Ph.D Student**, [Umeå University](https://www.umu.se), Sweden
+- 2018--2020: **Research Fellow**, [Indian Institute of Technology Patna](https://www.iitp.ac.in), [Department of Computer Science and engineering](), India
+- 2016--2018: **Master of Technology**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
+- 2014--2016: **Master of Science**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
+- 2011--2014: **Bachelor of Science (Hons.)**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
