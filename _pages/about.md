@@ -11,7 +11,7 @@ redirect_from:
 
 Welcome to my corner of the web!
 
-I am a **Doctoral (Ph.D) Student** in Federated learning at [Umeå University](https://www.umu.se/en/) ([Autonomous Distributed System Lab](https://www.umu.se/en/research/groups/autonomous-distributed-systems-lab/), [Department of Computer Science](https://www.umu.se/en/department-of-computing-science/)). My Ph.D is funded by [WASP] (https://wasp-sweden.org/).
+I am a **Doctoral (Ph.D) Student** in Federated learning at [Umeå University](https://www.umu.se/en/) ([Autonomous Distributed System Lab](https://www.umu.se/en/research/groups/autonomous-distributed-systems-lab/), [Department of Computer Science](https://www.umu.se/en/department-of-computing-science/)). My Ph.D is funded by ([WASP](https://wasp-sweden.org/)).
 
 I am a member of the [IEE](),[ACM](), [APNNS]()
 
