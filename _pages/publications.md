@@ -7,21 +7,14 @@ classes: wide
 ---
 
 You can find my publications on the following systems.
-
-<a href="{{ site.author.arxiv }}"><i class="ai ai-fw ai-arxiv"></i> arXiv</a>   
-<a href="{{ site.author.googlescholar }}"><i class="ai ai-fw ai-google-scholar"></i> Google Scholar</a>   
-<a href="{{ site.author.dblp }}"><i class="ai ai-fw ai-dblp"></i> dblp</a>   
-<a href="https://deepai.org/profile/benjamin-guedj"><i class="ai ai-fw ai-google-scholar"></i> DeepAI</a>   
+  
+<a href="https://dblp.org/pid/255/9829.html"><i class="ai ai-fw ai-dblp"></i> dblp</a>   
+<a href="https://scholar.google.co.in/citations?user=x5fi0xUAAAAJ&hl=en"><i class="ai ai-fw ai-google-scholar"></i> Google Scholar</a>   
 <a href="https://www.researchgate.net/profile/Benjamin_Guedj"><i class="ai ai-fw ai-google-scholar"></i> ResearchGate</a>   
-<a href="https://www.mendeley.com/profiles/benjamin-guedj2/"><i class="ai ai-fw ai-mendeley"></i> Mendeley</a>    
 <a href="{{ site.author.orcid }}"><i class="ai ai-fw ai-orcid"></i> ORCID</a>    
 <a href="https://publons.com/researcher/3156326/benjamin-guedj/"><i class="ai ai-fw ai-publons"></i> Publons</a>     
 <a href="{{ site.author.researchgate }}"><i class="ai ai-fw ai-researchgate"></i> ResearchGate</a>     
 <a href="https://www.semanticscholar.org/author/Benjamin-Guedj/3383281"><i class="ai ai-fw ai-semanticscholar"></i> Semantic Scholar</a>     
-[UCL Iris](http://iris.ucl.ac.uk/iris/browse/profile?upi=BGUED94)     
-[HAL](https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=Benjamin%2C+Guedj&CB_auteur=oui&CB_titre=oui&CB_identifiant=oui&CB_article=oui&CB_DOI=oui&CB_typdoc=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=AT&Fen=Aff&css=../css/styles_publicationsHAL.css)     
-[MathScinet](http://www.ams.org/mathscinet/MRAuthorID/1009628)     
-[zbMATH](https://zbmath.org/authors/?q=guedj.benjamin)
 
 You can download my [own bibtex file](https://bguedj.github.io/files/bguedj-publications.bib) which serves to generate the list below (which might take a few seconds to appear depending on your connection).
 
