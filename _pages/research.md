@@ -21,6 +21,29 @@ June '20 - Present
 
 The research is focused on mitigating the challenges occurs in Federated Learning due to statistical and system heterogeneity. We are looking around the problems like, federated feature engineering, straggler mitigation, Model personalization etc.
 
+# M.Tech. Project
+
+**A Framework Towards Generalized Mid-term Energy Forecasting Model for Industrial Sector in Smart Grid**
+
+july '17 - july '18
+
+The research focused on to build a generalized mid-term forecasting model for the industrial sector to predict the quarterly energy usage of a vast geographic region accurately with a diverse range of influential parameters.
+ 
+# M.Sc. Project
+
+**A Design towards Reduced Message Complexity using Symmetric Algorithm for Process Synchronization**
+
+July '15 - july '16
+
+The research focused on to build a prioritized version of the well-known Ricart–Agrawala algorithm for mutual exclusion in distributed systems.
+
+# Others
+
+**Low-Latency Energy-Efficient Cyber-Physical System**
+
+Sept '18 - June '20
+
+The research focused on low-latency and energy-efficient Cyber-Physical System applications on the cloud-IoT-edge by bringing intelligence and inferencing proximity to the edge site to detect events in real-time.
 
 <!-- ## Software
 
