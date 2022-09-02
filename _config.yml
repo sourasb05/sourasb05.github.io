@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Benjamin Guedj"
+title                    : "Sourasekhar Banerjee"
 title_separator          : "-"
-name                     : &name "Benjamin Guedj"
-description              : &description "Professional website of Benjamin Guedj, Ph.D."
-url                      : https://bguedj.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Sourasekhar Banerjee"
+description              : &description "Professional website of Sourasekhar Banerjee, (M.Tech)"
+url                      : https://sourasb05.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "bguedj/bguedj.github.io"
+repository               : "sourasb05/sourasb05.github.io"
 teaser                   : "500x300.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
@@ -80,42 +80,42 @@ analytics:
 
 # Site Author
 author:
-  name             : "Benjamin Guedj"
+  name             : "Sourasekhar Banerjee"
   avatar           : "profile.png"
-  bio              : "Mathematician and computer scientist, senior researcher in machine learning."
-  location         : "London, United Kingdom"
-  employer         : # "Inria and University College London"
+  bio              : "Doctoral student in Federated learning."
+  location         : "Umeå, Sweden"
+  employer         : # "Umeå University"
   pubmed           : 
-  googlescholar    : "https://scholar.google.fr/citations?user=q-JTC2sAAAAJ"
-  email            : "benjamin.guedj@inria.fr"
-  researchgate     : "https://www.researchgate.net/profile/Benjamin_Guedj"
+  googlescholar    : "https://scholar.google.co.in/citations?user=x5fi0xUAAAAJ&hl=en"
+  email            : "sourasb@cs.umu.se"
+  researchgate     : "https://www.researchgate.net/profile/Sourasekhar-Banerjee"
   uri              :
   bitbucket        : 
-  arxiv            : "https://arxiv.org/a/guedj_b_1.html"
-  dblp             : "https://dblp.uni-trier.de/pers/hd/g/Guedj:Benjamin"
+  arxiv            : 
+  dblp             : "https://https://dblp.org/pid/255/9829.html"
   codepen          :
   dribbble         :
   flickr           :
   facebook         : 
   foursquare       :
-  github           : "bguedj"
+  github           : "sourasb05"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/benjaminguedj/"
-  orcid            : "https://orcid.org/0000-0003-1237-7430"
+  linkedin         : "https://www.linkedin.com/in/sourasekhar-banerjee-7a7b707a/?originalSubdomain=se"
+  orcid            : "https://orcid.org/0000-0002-3451-2851"
   pinterest        :
   soundcloud       :
-  stackoverflow    : #https://stackexchange.com/users/10793782/benjamin
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "bguedj"
+  twitter          : "sourasekharb"
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/channel/UCkp0b5jlZoIc4U-sDav4Fuw"
+  youtube          : 
   wikipedia        :
 
 
