@@ -17,7 +17,8 @@ Federated Learning and Optimization, Machine Learning, Distributed Learning, Dee
 
 **Federated Learning and Optimization**
 
-June '20 - Present
+June '20 - Present 
+
 The research is focused on mitigating the challenges occurs in Federated Learning due to statistical and system heterogeneity. We are looking around the problems like, federated feature engineering, straggler mitigation, Model personalization etc.
 
 
