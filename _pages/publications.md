@@ -14,13 +14,12 @@ You can find my publications on the following systems.
 <a href="https://orcid.org/0000-0002-3451-2851"><i class="ai ai-fw ai-orcid"></i> ORCID</a>    
 <a href="https://publons.com/wos-op/researcher/1445440/sourav-banerjee/"><i class="ai ai-fw ai-publons"></i> Publons</a>     
 
-You can download my [own bibtex file](https://github.com/sourasb05/sourasb05.github.io/blob/master/files/sourasb-publications.bib) which serves to generate the list below (which might take a few seconds to appear depending on your connection).
+You can download my [own bibtex file](https://github.com/sourasb05/sourasb05.github.io/blob/master/files/sourasb-publications.bib).
+
+The list of publication fetched from DBLP
 
 
-In the list below, all links called "Paper" refer to the published, definitive versions of my works. Most of my papers are also available on the arXiv and have an "arXiv" link, but please note these might not always point to the published version. Whenever relevant, you will also find a link to code or a presentation. If you are considering citing my work (thanks!), you can use the (carefully curated) bibtex entries below.
-
-
-<script src="https://bibbase.org/show?bib=https://bguedj.github.io/files/bguedj-publications.bib&jsonp=1&nocache=1&theme=default"></script> 
+<script src="https://bibbase.org/show?msg=embed&bib=https://dblp.org/pid/255/9829.bib"></script> 
 
 {% include base_path %}
 
