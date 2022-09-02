@@ -37,9 +37,7 @@ I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee
 
 ## CV
 
-<!-- Full CV (soon available [here](#)) -->
-
-[Short biography](files/biography.txt)
+Find my CV [here](files/Sourasekhar_banerjee_CV_new.pdf)
 
 
 ### In a nutshell
