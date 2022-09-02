@@ -9,6 +9,17 @@ classes: wide
 
 I am interested in Federated learning, with a particular focus on mitigating stragglers effect , and model personalization. 
 
+## Research Interest
+
+Federated Learning and Optimization, Machine Learning, Distributed Learning, Deep Learning
+
+## Ph.D. Project
+
+**Federated Learning and Optimization**
+
+June '20 - Present
+The research is focused on mitigating the challenges occurs in Federated Learning due to statistical and system heterogeneity. We are looking around the problems like, federated feature engineering, straggler mitigation, Model personalization etc.
+
 
 <!-- ## Software
 
