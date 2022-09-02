@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "bguedj"
+  username               : &twitter "sourasekharB"
 facebook:
   username               :
   app_id                 :
@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "Doctoral student in Federated learning."
   location         : "Umeå, Sweden"
-  employer         : # "Umeå University"
+  employer         : "Umeå University"
   pubmed           : 
   googlescholar    : "https://scholar.google.co.in/citations?user=x5fi0xUAAAAJ&hl=en"
   email            : "sourasb@cs.umu.se"
@@ -96,12 +96,12 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : 
+  facebook         : "https://www.facebook.com/sourasekhar.banerjee"
   foursquare       :
   github           : "sourasb05"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : 
   impactstory      : 
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/sourasekhar-banerjee-7a7b707a/?originalSubdomain=se"
