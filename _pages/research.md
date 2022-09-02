@@ -9,7 +9,7 @@ classes: wide
 
 I am interested in Federated learning, with a particular focus on mitigating stragglers effect , and model personalization. 
 
-![image](https://user-images.githubusercontent.com/40869271/188039946-f3bb13c5-a831-4b53-bd44-ef77cba82483.png)
+[image](https://user-images.githubusercontent.com/40869271/188039946-f3bb13c5-a831-4b53-bd44-ef77cba82483.png)
 
 <!-- ## Software
 
