@@ -11,7 +11,7 @@ redirect_from:
 
 Welcome to my corner of the web!
 
-I am a **Doctoral (Ph.D) Student** in Federated learning in [Department of Computer Science](https://www.umu.se/en/department-of-computing-science/) at [Umeå University](https://www.umu.se/en/). My supervisors are [Dr. Monowar Bhuyan](https://people.cs.umu.se/monowar/index.html) and [Prof. Erik Elmroth](https://people.cs.umu.se/elmroth/index.html). Also, I am a member of [Autonomous Distributed System Lab](https://www.umu.se/en/research/groups/autonomous-distributed-systems-lab/). My PhD is in collaboration and funded by Wallenberg AI, Autonomous Systems and Software Program([WASP](https://wasp-sweden.org/)).
+I am a **Doctoral (Ph.D) Student** in Federated learning in [Department of Computer Science](https://www.umu.se/en/department-of-computing-science/) at [Umeå University](https://www.umu.se/en/). My supervisors are [Dr. Monowar Bhuyan](https://people.cs.umu.se/monowar/index.html) and [Prof. Erik Elmroth](https://people.cs.umu.se/elmroth/index.html). Also, I am a member of [Autonomous Distributed Systems Lab](https://www.umu.se/en/research/groups/autonomous-distributed-systems-lab/). My PhD is in collaboration and funded by Wallenberg AI, Autonomous Systems and Software Program([WASP](https://wasp-sweden.org/)).
 
 Before that, I obtained M.Tech in Computer Science and Engineering in 2018 from [Department of Computer Science and Engineering](https://www.caluniv.ac.in/academic/Compsc.html), [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India  under the supervision of [Prof. Nabendu Chaki]([http://www.lsta.upmc.fr/biau.html](https://research.caluniv.ac.in/researcher/nabendu-chaki)). Prior to that, I obtained M.Sc in Computer and Information Science in 2016 from Department of Computer Science and Engineering, University of Calcutta, Kolkata, India . Also, I obtained Bachelor of Computer Science (Honours) in 2014 from [St.Xavier's College (Autonomous)](https://www.sxccal.edu/b-sc-computer-science-department/), Kolkata, India.
 
@@ -24,7 +24,7 @@ I am a member of the [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.
   Umeå Universitye<br />Office NAT.B2.206 Natural Science building 2nd floor (i.e., entrance floor)  <br />90187 Umeå <br /> Sweden
 </address>
 <br>
-<!-- ([see on Google Maps](63.819928924827565, 20.307784986027702)) -->
+< ([see on Google Maps](www.google.com/maps/search/natural+science+building+umu/@63.8202426,20.2879366,14z/data=!3m1!4b1)) >
 
 <iframe src="https://www.google.com/maps/search/natural+science+building+umu/@63.8202426,20.2879366,14z/data=!3m1!4b1" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
