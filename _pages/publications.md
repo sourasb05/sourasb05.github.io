@@ -18,8 +18,7 @@ You can download my [own bibtex file](https://github.com/sourasb05/sourasb05.git
 
 The list of publication fetched from DBLP
 
-
-<script src="https://bibbase.org/show?msg=embed&bib=https://dblp.org/pid/255/9829.bib"></script> 
+<script src="https://bibbase.org/show?bib=https://dblp.org/pid/255/9829.bib&jsonp=1"></script>
 
 {% include base_path %}
 
