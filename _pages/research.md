@@ -67,7 +67,7 @@ https://i-pri.org/special/Biostatistics/Software/Geneland/ -->
 <!-- ### Current -->
 
 <!-- **Project:**      
-**Period:**      
+**Period**      
 **Amount:**      
 **Founder:**      
 **Role:**      
