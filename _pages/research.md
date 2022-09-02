@@ -7,7 +7,9 @@ classes: wide
 
 ## Topics
 
-I am interested in machine learning, with a particular focus on statistical learning theory, PAC-Bayes theory, computational statistics and algorithms, deep learning, kernels and learning representation.
+I am interested in Federated learning, with a particular focus on mitigating stragglers effect , and model personalization. 
+
+![image](https://user-images.githubusercontent.com/40869271/188039946-f3bb13c5-a831-4b53-bd44-ef77cba82483.png)
 
 <!-- ## Software
 
@@ -94,15 +96,3 @@ https://i-pri.org/special/Biostatistics/Software/Geneland/ -->
 TBC -->
 
 ## Awards
-
-Our paper ["PAC-Bayesian Bound for the Conditional Value at Risk"](https://proceedings.neurips.cc//paper/2020/file/d02e9bdc27a894e882fa0c9055c99722-Paper.pdf) with [Zakaria Mhammedi](https://www.zakmhammedi.com) and [Bob Williamson](https://scholar.google.com/citations?user=G4MBruQAAAAJ&hl=fr) was accepted as a spotlight presentation (top 3% of submissions) at NeurIPS 2020
-
-**Best reviewer award** (top 10%), NeurIPS 2020
-
-**Best reviewer award** (top 5%), NeurIPS 2019
-
-**Best reviewer award** (top 5%), ICML 2019
-
-**Best reviewer award** (top 25%), NeurIPS 2018
-
-**PEDR** (bonus for excellence in research and supervision), Inria (2018--2022)
