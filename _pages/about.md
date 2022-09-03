@@ -24,9 +24,10 @@ I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee
   Umeå Universitye<br />Office NAT.B2.206 Natural Science building 2nd floor (i.e., entrance floor)  <br />90187 Umeå <br /> Sweden
 </address>
 <br>
-[see on Google Maps](www.google.com/maps/search/natural+science+building+umu/@63.8202426,20.2879366,14z/data=!3m1!4b1)
 
-<iframe src="[https://www.google.com/maps/search/natural+science+building+umu/@63.8202426,20.2879366,14z/data=!3m1!4b1](https://goo.gl/maps/VYYu5RNixtmj3z7v8)" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+see on Google Maps
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7041.11953664047!2d20.284422548424356!3d63.819976452174814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1snatural%20science%20building%20near%20Ume%C3%A5%20universitet%2C%20Universumhuset%2C%20UNIVERSITETSTORGET%2C%20Ume%C3%A5!5e0!3m2!1sen!2sse!4v1662231068112!5m2!1sen!2sse" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 <!-- 
