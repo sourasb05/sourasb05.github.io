@@ -43,7 +43,7 @@ Find my CV [here](files/Sourasekhar_banerjee_CV_new.pdf)
 
 ### In a nutshell
 
-- 2020--present:* **WASP Ph.D Student**, [Umeå University](https://www.umu.se), Sweden
+- 2020--present: **WASP Ph.D Student**, [Umeå University](https://www.umu.se), Sweden
 - 2018--2020: **Research Fellow**, [Indian Institute of Technology Patna](https://www.iitp.ac.in), [Department of Computer Science and engineering](), India
 - 2016--2018: **Master of Technology**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
 - 2014--2016: **Master of Science**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
