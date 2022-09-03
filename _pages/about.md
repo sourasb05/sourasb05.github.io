@@ -28,17 +28,6 @@ I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee
 
 <iframe src="[https://www.google.com/maps/search/natural+science+building+umu/@63.8202426,20.2879366,14z/data=!3m1!4b1](https://goo.gl/maps/VYYu5RNixtmj3z7v8)" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-<iframe
-  width="600"
-  height="450"
-  style="border:0"
-  loading="lazy"
-  allowfullscreen
-  referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps/embed/v1/place?key=API_KEY
-    &q=Space+Needle,Seattle+WA">
-</iframe>
-
 
 <!-- 
  -->
