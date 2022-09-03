@@ -29,6 +29,7 @@ july '17 - july '18
 
 The research focused on to build a generalized mid-term forecasting model for the industrial sector to predict the quarterly energy usage of a vast geographic region accurately with a diverse range of influential parameters.
  
+Find my M.Tech thesis [here](files/mtech_Thesis.pdf).
 # M.Sc. Project
 
 **A Design towards Reduced Message Complexity using Symmetric Algorithm for Process Synchronization**
