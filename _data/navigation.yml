@@ -23,7 +23,10 @@ main:
 
   - title: "Tools"
     url: /tools/
-
+  - title: "Gallery"
+    url: /gallery/
+    
+    
   # - title: "Teaching"
   #   url: /teaching/    
     
