@@ -19,6 +19,7 @@ I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee
 
 ## News
 [**October 05, 2022**] Poster presentation in The Swedish e-Science Academy [Link](http://essenceofescience.se/the-swedish-e-science-academy-on-5-6-october-register-now/)
+
 [**September 20, 2022**] Poster presented in [WING Day](https://industrydays.wasp-sweden.org/) [[Link]](files/WING_Day_poster.pdf).
 
 [**July 19, 2022**] Paper presented in WCCI-IJCNN, 2022 [[Slides]](files/Banerjee-Sourasekhar-1604-Optimized_and_Adaptive_Federated_Learning_for_Straggler-Resilient_Device_Selection.pdf).
