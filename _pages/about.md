@@ -17,7 +17,9 @@ Before that, I obtained M.Tech in Computer Science and Engineering in 2018 from 
 
 I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee.org/), [ACM](https://www.acm.org/membership/membership-options), [APNNS](https://www.apnns.org/)
 
+## News
 
+[September 20, 2022] Poster presented in [WING Day](https://industrydays.wasp-sweden.org/wing-day/#:~:text=WING%20Day%20%E2%80%93%20September%2020&text=WING%20Day%20(WASP%20Industry%20Networking,group%20discussions%20and%20spontaneous%20mingles.) [Link](file:///home/sourasb/Downloads/WING%20Day%20poster.pdf).
 ## Contact
 
 <address>
