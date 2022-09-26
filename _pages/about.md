@@ -20,6 +20,13 @@ I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee
 ## News
 
 [**September 20, 2022**] Poster presented in [WING Day](https://industrydays.wasp-sweden.org/) [[Link]](files/WING_Day_poster.pdf).
+[**July 19, 2022**] Paper presented in WCCI-IJCNN, 2022 [[Slides]](https://umeauniversity-my.sharepoint.com/:p:/r/personal/soba0071_ad_umu_se/_layouts/15/Doc.aspx?sourcedoc=%7B1D657E34-6451-49ED-9693-38BD7E4AC0DE%7D&file=Banerjee-Sourasekhar-1604-Optimized%20and%20Adaptive%20Federated%20Learning%20for%20Straggler-Resilient%20Device%20Selection.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1&login_hint=soba0071%40ad.umu.se&ct=1664197843785&wdOrigin=OFFICECOM-WEB.MAIN.OTHER&cid=eaed1b6c-c876-4a3d-8d11-0a1ce91a98f3).
+[**April 26, 2022**] Paper accepted in IEEE IJCNN, 2022 [[paper]](https://people.cs.umu.se/sonvx/files/FedMOODs-Preprint.pdf) [[presentation]]().
+[**September 20, 2022**] Poster presented in [WING Day](https://industrydays.wasp-sweden.org/) [[Link]](files/WING_Day_poster.pdf).
+
+	2022-04-26
+
+
 ## Contact
 
 <address>
