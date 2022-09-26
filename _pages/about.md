@@ -19,7 +19,7 @@ I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee
 
 ## News
 
-[September 20, 2022] Poster presented in [WING Day](https://industrydays.wasp-sweden.org/) [[Link]](files/WING Day poster.pdf).
+[**September 20, 2022**] Poster presented in [WING Day](https://industrydays.wasp-sweden.org/) [[Link]](files/WING_Day_poster.pdf).
 ## Contact
 
 <address>
