@@ -18,9 +18,8 @@ Before that, I obtained M.Tech in Computer Science and Engineering in 2018 from 
 I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee.org/), [ACM](https://www.acm.org/membership/membership-options), [APNNS](https://www.apnns.org/)
 
 ## News
-[**October 05, 2022**] Poster presentation in The Swedish e-Science Academy [Link](http://essenceofescience.se/the-swedish-e-science-academy-on-5-6-october-register-now/)
 
-[**September 20, 2022**] Poster presented in [WING Day](https://industrydays.wasp-sweden.org/) [[Link]](files/WING_Day_poster.pdf).
+[**October 20, 2022**] Paper titled "Personalized Multi-tier Federated Learning" is accepted in FL-Neurips, 2022
 
 [**July 19, 2022**] Paper presented in WCCI-IJCNN, 2022 [[Slides]](files/Banerjee-Sourasekhar-1604-Optimized_and_Adaptive_Federated_Learning_for_Straggler-Resilient_Device_Selection.pdf).
 
