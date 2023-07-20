@@ -19,6 +19,8 @@ I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee
 
 ## News
 
+[**September_1, 2023**] Received 140,000 SEK funding from WASP for the research visit to Imperial College London, UK
+
 [**October 20, 2022**] Paper titled "Personalized Multi-tier Federated Learning" is accepted in FL-Neurips, 2022
 
 [**July 19, 2022**] Paper presented in WCCI-IJCNN, 2022 [[Slides]](files/Banerjee-Sourasekhar-1604-Optimized_and_Adaptive_Federated_Learning_for_Straggler-Resilient_Device_Selection.pdf).
