@@ -76,8 +76,10 @@ Find my CV [here](files/Sourasekhar_banerjee_CV_new (15).pdf)
 
 
 ### In a nutshell
-- 2024--present: **Postdoctoral Researcher**, [Uppsala University](https://www.uu.se/en/contact-and-organisation/organisation?query=X61%3A2), Sweden 
--2024 (April-June): **Research Internship**, [ASTAR IHPC](https://www.a-star.edu.sg/ihpc/), Singapore
+- 2024--present: **Postdoctoral Researcher**, [Uppsala University](https://www.uu.se/en/contact-and-organisation/organisation?query=X61%3A2), Sweden
+  
+-2024(April--June): **Research Internship**, [ASTAR IHPC](https://www.a-star.edu.sg/ihpc/), Singapore
+  
 -2023 (September): **Research visit**,Imperial College London
 - 2020--present: **WASP Ph.D Student**, [Umeå University](https://www.umu.se), Sweden
 - 2018--2020: **Research Fellow**, [Indian Institute of Technology Patna](https://www.iitp.ac.in), [Department of Computer Science and engineering](), India
