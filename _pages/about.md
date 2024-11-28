@@ -15,7 +15,7 @@ Hi, I’m Sourasekhar Banerjee, a **postdoctoral researcher** in the Department 
 
 I recently completed my Ph.D. in September 2024 in Computing Science [Department of Computing Science](https://www.umu.se/en/department-of-computing-science/) at [Umeå University](https://www.umu.se/en/). The title of the doctoral thesis is [Advancing Federated Learning: Algorithms and Use-Cases](https://www.diva-portal.org/smash/get/diva2:1892766/FULLTEXT02.pdf). My doctoral studies were supported by the prestigious Wallenberg AI, Autonomous Systems, and Software Program ([WASP](https://wasp-sweden.org/)), and I worked under the mentorship of Dr. [Monowar Bhuyan](https://people.cs.umu.se/monowar/index.html) and Professor [Erik Elmroth](https://people.cs.umu.se/elmroth/index.html). During my Doctoral studies, I have had the privilege of several enriching experiences.
 
-*Research Visit to Imperial College London (2023), funded by WASP.
+* Research Visit to Imperial College London (2023), funded by WASP.
 
 * Research Internship at A*STAR IHPC, Singapore (2024), where I collaborated on cutting-edge FL research.
 
