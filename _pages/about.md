@@ -55,7 +55,7 @@ Beyond academia, I enjoy exploring new cultures, photography, and brainstorming 
 ## Contact
 
 <address>
-  Uppsala Universitye<br /> Hus 10, Lägerhyddsvägen 1, Ångströmlaboratorie <br />75105 Uppsala <br /> Sweden
+  Uppsala University <br /> Hus 10, Lägerhyddsvägen 1, Ångströmlaboratorie <br />75105 Uppsala <br /> Sweden
 </address>
 <br>
 
