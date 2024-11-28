@@ -37,7 +37,7 @@ Beyond academia, I enjoy exploring new cultures, photography, and brainstorming 
 
 [**October_01, 2024**] Started Postdoctoral Researcher in Uppsala University, Sweden
 
-[**September_23, 2024**] Defended thesis titled "Advancing Federated Learning: Algorithms and Use-Cases" [Thesis](https://www.diva-portal.org/smash/get/diva2:1892766/FULLTEXT02.pdf), [Recording](https://play.umu.se/media/t/0_iwmx3ni0), Slides(files/Thesis_presentation-final.pdf)
+[**September_23, 2024**] Defended thesis titled "Advancing Federated Learning: Algorithms and Use-Cases" [Thesis](https://www.diva-portal.org/smash/get/diva2:1892766/FULLTEXT02.pdf), [Recording](https://play.umu.se/media/t/0_iwmx3ni0), [Slides](files/Thesis_presentation-final.pdf)
 
 [**August_05, 2024**] Paper titled "Cost-Efficient Feature Selection for Horizontal Federated Learning" is accepted in IEEE Transactions on Artificial Intelligence.
 
