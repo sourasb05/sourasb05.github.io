@@ -11,7 +11,18 @@ redirect_from:
 
 Welcome to my corner of the web!
 
-I am a **Doctoral (Ph.D) Student** in Federated learning in [Department of Computer Science](https://www.umu.se/en/department-of-computing-science/) at [Umeå University](https://www.umu.se/en/). My supervisors are [Dr. Monowar Bhuyan](https://people.cs.umu.se/monowar/index.html) and [Prof. Erik Elmroth](https://people.cs.umu.se/elmroth/index.html). Also, I am a member of [Autonomous Distributed Systems Lab](https://www.umu.se/en/research/groups/autonomous-distributed-systems-lab/). My PhD is in collaboration and funded by Wallenberg AI, Autonomous Systems and Software Program([WASP](https://wasp-sweden.org/)).
+Hi, I’m Sourasekhar Banerjee, a **postdoctoral researcher** in the Department of Information Technology at Uppsala University, Sweden. My academic journey is driven by a passion for solving complex problems at the intersection of Federated Learning (FL) and cybersecurity. My research currently focuses on applying Federated Learning to Intrusion Detection Systems (IDS), where I aim to enhance cybersecurity solutions through distributed, privacy-preserving machine learning techniques.
+
+I recently completed my Ph.D. in September 2024 in Computing Science [Department of Computing Science](https://www.umu.se/en/department-of-computing-science/) at [Umeå University](https://www.umu.se/en/). The title of the doctoral thesis is [Advancing Federated Learning: Algorithms and Use-Cases](https://www.diva-portal.org/smash/get/diva2:1892766/FULLTEXT02.pdf). My doctoral studies were supported by the prestigious Wallenberg AI, Autonomous Systems, and Software Program ([WASP](https://wasp-sweden.org/)), and I worked under the mentorship of Dr. [Monowar Bhuyan](https://people.cs.umu.se/monowar/index.html) and Professor [Erik Elmroth](https://people.cs.umu.se/elmroth/index.html). During my Doctoral studies, I have had the privilege of several enriching experiences.
+
+*Research Visit to Imperial College London (2023), funded by WASP.
+
+* Research Internship at A*STAR IHPC, Singapore (2024), where I collaborated on cutting-edge FL research.
+
+My research interests include Federated Learning for Cybersecurity, Intrusion Detection Systems (IDS), Scalable and, Adaptive Distributed AI, Personalized Federated Learning for Privacy, and Event Memorability.
+
+Beyond academia, I enjoy exploring new cultures, photography, and brainstorming innovative AI applications. I’m always keen on connecting and collaborating with researchers and industry professionals worldwide.
+
 
 Before that, I obtained M.Tech in Computer Science and Engineering in 2018 from [Department of Computer Science and Engineering](https://www.caluniv.ac.in/academic/Compsc.html), [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India  under the supervision of [Prof. Nabendu Chaki]([http://www.lsta.upmc.fr/biau.html](https://research.caluniv.ac.in/researcher/nabendu-chaki)). Prior to that, I obtained M.Sc in Computer and Information Science in 2016 from Department of Computer Science and Engineering, University of Calcutta, Kolkata, India . Also, I obtained Bachelor of Computer Science (Honours) in 2014 from [St.Xavier's College (Autonomous)](https://www.sxccal.edu/b-sc-computer-science-department/), Kolkata, India.
 
@@ -24,6 +35,8 @@ I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee
 [**October_01, 2024**] Started Postdoctoral Researcher in Uppsala University, Sweden
 
 [**September_23, 2024**] Defended thesis titled "Advancing Federated Learning: Algorithms and Use-Cases"
+
+[**August_05, 2024**] Paper titled "Cost-Efficient Feature Selection for Horizontal Federated Learning" is accepted in IEEE Transactions on Artificial Intelligence.
 
 [**June_16, 2024**] Completed 2 months research internship from A*STAR IHPC, Singapore.
 
