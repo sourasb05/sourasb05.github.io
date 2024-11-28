@@ -19,6 +19,14 @@ I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee
 
 ## News
 
+[**November_04, 2024**] Papered titled "Predicting Event Memorability using Personalized Federated Learning" is accepted in WACV, 2024
+
+[**October_01, 2024**] Started Postdoctoral Researcher in Uppsala University, Sweden
+
+[**September_23, 2024**] Defended thesis titled "Advancing Federated Learning: Algorithms and Use-Cases"
+
+[**June_16, 2024**] Completed 2 months research internship from A*STAR IHPC, Singapore.
+
 [**September_1, 2023**] Received 140,000 SEK funding from WASP for the research visit to Imperial College London, UK
 
 [**October 20, 2022**] Paper titled "Personalized Multi-tier Federated Learning" is accepted in FL-Neurips, 2022
