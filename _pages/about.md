@@ -61,10 +61,11 @@ Beyond academia, I enjoy exploring new cultures, photography, and brainstorming 
 
 see on Google Maps
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14082.203204109632!2d20.273157479101556!3d63.82004820000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467c5b0c462a1e55%3A0xbd7128fb2ca54b62!2sUme%C3%A5%20universitet%20Teknisk-naturvetenskaplig%20fakultet!5e0!3m2!1sen!2sse!4v1662233112885!5m2!1sen!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2004.5951089756613!2d17.64449957727139!3d59.83925647486529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465fcbe00456a9c1%3A0x30900a218076ca4e!2s%C3%85ngstr%C3%B6mlaboratoriet!5e0!3m2!1sen!2sse!4v1732757879239!5m2!1sen!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <!-- 
  -->
+
+
 
 
 
