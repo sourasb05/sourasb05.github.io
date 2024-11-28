@@ -55,7 +55,7 @@ Beyond academia, I enjoy exploring new cultures, photography, and brainstorming 
 ## Contact
 
 <address>
-  Uppsala Universitye<br /> Hus 10, Lägerhyddsvägen 1, Ångströmlaboratorie <br />70105 Uppsala <br /> Sweden
+  Uppsala Universitye<br /> Hus 10, Lägerhyddsvägen 1, Ångströmlaboratorie <br />75105 Uppsala <br /> Sweden
 </address>
 <br>
 
@@ -66,7 +66,7 @@ see on Google Maps
 <!-- 
  -->
 
-<!-- My main line of research is in statistical machine learning. I am primarily interested in the design, analysis and implementation of statistical learning methods for high dimensional problems. My interests include (but are not limited to): PAC-Bayesian theory, sparsity and high-dimensional statistics, optimisation theory, statistical learning theory, non-negative matrix factorisation, aggregation of estimators and classifiers, MCMC algorithms, (un)supervised learning, online clustering, concentration inequalities... -->
+
 
 
 ## CV
@@ -75,7 +75,9 @@ Find my CV [here](files/Sourasekhar_banerjee_CV_new.pdf)
 
 
 ### In a nutshell
-
+-2024--present: **Postdoctoral Researcher**, [Uppsala University](https://www.uu.se/en/contact-and-organisation/organisation?query=X61%3A2), Sweden
+--2024 (April-June): **Research Internship**, [ASTAR IHPC](https://www.a-star.edu.sg/ihpc/), Singapore
+--2023 (September): **Research visit**,Imperial College London
 - 2020--present: **WASP Ph.D Student**, [Umeå University](https://www.umu.se), Sweden
 - 2018--2020: **Research Fellow**, [Indian Institute of Technology Patna](https://www.iitp.ac.in), [Department of Computer Science and engineering](), India
 - 2016--2018: **Master of Technology**, [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India
