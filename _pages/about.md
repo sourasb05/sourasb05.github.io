@@ -21,12 +21,15 @@ I recently completed my Ph.D. in September 2024 in Computing Science [Department
 
 My research interests include Federated Learning for Cybersecurity, Intrusion Detection Systems (IDS), Scalable and, Adaptive Distributed AI, Personalized Federated Learning for Privacy, and Event Memorability.
 
-Beyond academia, I enjoy exploring new cultures, photography, and brainstorming innovative AI applications. I’m always keen on connecting and collaborating with researchers and industry professionals worldwide.
-
-
-Before that, I obtained M.Tech in Computer Science and Engineering in 2018 from [Department of Computer Science and Engineering](https://www.caluniv.ac.in/academic/Compsc.html), [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India  under the supervision of [Prof. Nabendu Chaki]([http://www.lsta.upmc.fr/biau.html](https://research.caluniv.ac.in/researcher/nabendu-chaki)). Prior to that, I obtained M.Sc in Computer and Information Science in 2016 from Department of Computer Science and Engineering, University of Calcutta, Kolkata, India . Also, I obtained Bachelor of Computer Science (Honours) in 2014 from [St.Xavier's College (Autonomous)](https://www.sxccal.edu/b-sc-computer-science-department/), Kolkata, India.
+I obtained M.Tech in Computer Science and Engineering in 2018 from [Department of Computer Science and Engineering](https://www.caluniv.ac.in/academic/Compsc.html), [University of Calcutta](http://www.caluniv.ac.in/), Kolkata, India  under the supervision of [Prof. Nabendu Chaki]([http://www.lsta.upmc.fr/biau.html](https://research.caluniv.ac.in/researcher/nabendu-chaki)). Prior to that, I obtained M.Sc in Computer and Information Science in 2016 from Department of Computer Science and Engineering, University of Calcutta, Kolkata, India . Also, I obtained Bachelor of Computer Science (Honours) in 2014 from [St.Xavier's College (Autonomous)](https://www.sxccal.edu/b-sc-computer-science-department/), Kolkata, India.
 
 I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee.org/), [ACM](https://www.acm.org/membership/membership-options), [APNNS](https://www.apnns.org/)
+
+I am also a reviewer for top-tier AI and Machine Learning conferences, such as NeurIPS, ICLR, AISTATS, ECML, etc., and Journals, such as IEEE Transactions on Artificial Intelligence, IEEE Transactions on Computational Social Systems, IEEE Sensors Letters, etc. I served as a PC member in the 31st ICONIP and SNCNW 2024. 
+
+
+Beyond academia, I enjoy exploring new cultures, photography, and brainstorming innovative AI applications. I’m always keen on connecting and collaborating with researchers and industry professionals worldwide.
+
 
 ## News
 
@@ -52,7 +55,7 @@ I am a member of [IEEE](https://students.ieee.org/), [IEEE CIS](https://cis.ieee
 ## Contact
 
 <address>
-  Umeå Universitye<br />Office NAT.B2.206 Natural Science building 2nd floor (i.e., entrance floor)  <br />90187 Umeå <br /> Sweden
+  Uppsala Universitye<br /> Hus 10, Lägerhyddsvägen 1, Ångströmlaboratorie <br />70105 Uppsala <br /> Sweden
 </address>
 <br>
 
