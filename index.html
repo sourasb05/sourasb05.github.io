@@ -4,147 +4,272 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Sourasekhar Banerjee</title>
-<meta name="description" content="Sourasekhar Banerjee, Ph.D. — Postdoctoral Researcher, Department of Information Technology, Uppsala University." />
+<meta name="description" content="Sourasekhar Banerjee, Ph.D. — Application Expert at Sweden AI Factory, NAISS." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="assets/css/style.css" />
+<script src="assets/js/main.js"></script>
+<script src="assets/js/news.js"></script>
 </head>
 <body>
-<div class="layout">
-
-<aside class="sidebar">
-  <div class="site-name">Sourasekhar Banerjee</div>
-  <button class="menu-toggle" aria-label="Toggle menu">☰ Menu</button>
-  <nav class="sidebar-nav">
-    <div class="menu-category">Menu</div>
-    <div class="menu-item"><a href="index.html" class="current">Home</a></div>
-
-    <div class="menu-category">Research</div>
-    <div class="menu-item"><a href="publications.html">Publications</a></div>
-    <div class="menu-item"><a href="service.html">Professional&nbsp;Service</a></div>
-
-    <div class="menu-category">Teaching</div>
-    <div class="menu-item"><a href="teaching.html">Teaching&nbsp;&amp;&nbsp;Supervision</a></div>
-
-    <div class="menu-category">Others</div>
-    <div class="menu-item"><a href="assets/doc/Sourasekhar_Banerjee_CV.pdf">CV</a></div>
-    <div class="menu-item"><a href="contact.html">Contact</a></div>
+<header class="site-header">
+<div class="header-inner">
+  <a class="brand" href="index.html"><span class="brand-mark">SB</span><span>Sourasekhar Banerjee</span></a>
+  <button class="icon-btn menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  <nav class="site-nav">
+    <a href="index.html" class="current">Home</a>
+    <a href="news.html">News</a>
+    <a href="publications.html">Publications</a>
+    <a href="service.html">Service</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="contact.html">Contact</a>
+    <a class="nav-cv" href="assets/doc/Sourasekhar_Banerjee_CV.pdf" target="_blank" rel="noopener">CV ↓</a>
   </nav>
-</aside>
+  <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">☾</button>
+</div>
+</header>
 
 <main class="content">
 
-  <div class="profile-row">
-    <div class="profile-photo">
+  <section class="hero">
+    <div class="hero-photo">
       <img src="assets/img/profile.png" alt="Photo of Sourasekhar Banerjee" />
     </div>
-    <div class="profile-info">
+    <div>
       <h1>Sourasekhar Banerjee, Ph.D.</h1>
-      <p class="position">Postdoctoral Researcher</p>
-      <p class="affiliation">
-        <a href="https://www.it.uu.se/">Department of Information Technology</a><br />
-        <a href="https://www.uu.se/">Uppsala University</a>, Sweden
-      </p>
-      <p>
-        <b>Email:</b> sourasekhar.banerjee@it.uu.se<br />
-        <b>Phone:</b> +46 730 987 453
-      </p>
       <div class="social-row">
-        <a href="https://github.com/sourasb05" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://scholar.google.com/citations?user=x5fi0xUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-        <a href="https://linkedin.com/in/sourasekhar-banerjee-7a7b707a" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/sourasb05" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+          GitHub
+        </a>
+        <a href="https://scholar.google.com/citations?user=x5fi0xUAAAAJ&hl=en" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14Zm0-24L0 9.5l4.84 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.16 4.44L24 9.5 12 0Z"/></svg>
+          Google Scholar
+        </a>
+        <a href="https://linkedin.com/in/sourasekhar-banerjee-7a7b707a" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+          LinkedIn
+        </a>
+        <a class="btn-primary" href="#contact">Contact me</a>
       </div>
     </div>
-  </div>
+  </section>
 
-  <h2>Research Interests</h2>
-  <p>
-    My research lies at the intersection of federated learning, privacy-preserving machine learning,
-    and distributed AI systems, focusing on four theoretically grounded and practically validated themes:
-  </p>
-  <ul>
-    <li><b>Personalization and Heterogeneity</b> — Provably convergent FL algorithms that handle non-IID data and systems heterogeneity across large-scale distributed environments.</li>
-    <li><b>Continual Federated Learning</b> — Frameworks for adapting federated models to distributional shifts without catastrophic forgetting, applied to adaptive intrusion detection in IoT networks.</li>
-    <li><b>Trustworthy Federated Learning</b> — Quantifying and mitigating privacy leakage and adversarial threats in FL pipelines, with applications to verifiably secure distributed learning across IoT and cross-institutional settings, and explainability of the clients.</li>
-    <li><b>Explainable Federated Learning</b> — Privacy-preserving frameworks that attribute global model behavior to individual client contributions, turning FL into an auditable system that supports anomaly detection, fair valuation, and accountability in high-stakes domains.</li>
-    <li><b>Applied Federated Learning</b> — User-centric FL for continuous sensing environments, including cognitive health, image privacy, and cross-institutional collaboration under data scarcity.</li>
-  </ul>
+  <section class="reveal">
+    <h2>Recent News</h2>
+    <div class="card">
+      <ul class="news-list" id="news-latest" data-count="5"></ul>
+      <div class="news-more"><a href="news.html">All news →</a></div>
+    </div>
+  </section>
 
-  <h2>Education</h2>
-  <div class="entry">
-    <b>Ph.D. in Computing Science</b>, Umeå University, Sweden — 2020&ndash;2024<br />
-    <span class="meta">Thesis: &ldquo;Advancing Federated Learning: Algorithms and Use-Cases.&rdquo;<br />
-    Supervisors: Assoc. Prof. Monowar Bhuyan; Prof. Erik Elmroth</span>
-  </div>
-  <div class="entry">
-    <b>M.Tech. in Computer Science &amp; Engineering</b>, University of Calcutta, India — 2016&ndash;2018 (First Class, 82.83%)<br />
-    <span class="meta">Thesis: &ldquo;A Framework Towards Generalized Mid-term Energy Forecasting Model for Industrial Sector in Smart Grid.&rdquo; Supervisor: Prof. Nabendu Chaki</span>
-  </div>
-  <div class="entry">
-    <b>M.Sc. in Computer Science</b>, University of Calcutta, India — 2014&ndash;2016 (First Class, 75.54%)<br />
-    <span class="meta">Thesis: &ldquo;A Design towards Reduced Message Complexity using Symmetric Algorithm for Process Synchronization.&rdquo; Supervisor: Prof. Nabendu Chaki</span>
-  </div>
-  <div class="entry">
-    <b>B.Sc. in Computer Science (Hons.)</b>, St. Xavier&rsquo;s College, India — 2011&ndash;2014 (First Class, 71%)
-  </div>
+  <section class="reveal">
+    <h2>Research Interests</h2>
+    <p>
+      My research lies at the intersection of federated learning, privacy-preserving machine learning,
+      and distributed AI systems, focusing on theoretically grounded and practically validated themes:
+    </p>
+    <div class="grid grid-3">
+      <div class="card interest">
+        <div class="ico">⚖</div>
+        <h3>Personalization &amp; Heterogeneity</h3>
+        <p>Provably convergent FL algorithms that handle non-IID data and systems heterogeneity across large-scale distributed environments.</p>
+      </div>
+      <div class="card interest">
+        <div class="ico">↻</div>
+        <h3>Continual Federated Learning</h3>
+        <p>Adapting federated models to distributional shifts without catastrophic forgetting, applied to adaptive intrusion detection in IoT networks.</p>
+      </div>
+      <div class="card interest">
+        <div class="ico">🛡</div>
+        <h3>Trustworthy Federated Learning</h3>
+        <p>Quantifying and mitigating privacy leakage and adversarial threats in FL pipelines, for verifiably secure learning across IoT and cross-institutional settings.</p>
+      </div>
+      <div class="card interest">
+        <div class="ico">🔍</div>
+        <h3>Explainable Federated Learning</h3>
+        <p>Attributing global model behavior to individual client contributions &mdash; enabling anomaly detection, fair valuation and accountability in high-stakes domains.</p>
+      </div>
+      <div class="card interest">
+        <div class="ico">🧠</div>
+        <h3>Applied Federated Learning</h3>
+        <p>User-centric FL for continuous sensing, including cognitive health, image privacy, and cross-institutional collaboration under data scarcity.</p>
+      </div>
+      <div class="card interest">
+        <div class="ico">📡</div>
+        <h3>IoT Security</h3>
+        <p>Intrusion detection for RPL-based IoT networks using LSTMs, foundation models and radio-layer features.</p>
+      </div>
+    </div>
+  </section>
 
-  <h2>Research Experience</h2>
+  <section class="reveal">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="tl-item card tl-current">
+        <div class="xp-row">
+          <a class="logo-tile" href="https://swedenaifactory.se/" target="_blank" rel="noopener"><img src="assets/img/logos/sweden-ai-factory.jpg" alt="Sweden AI Factory" /></a>
+          <div class="xp-main">
+            <div class="tl-role">Application Expert</div>
+            <div class="tl-org"><a href="https://swedenaifactory.se/" target="_blank" rel="noopener">Sweden AI Factory</a>, <a href="https://www.naiss.se/" target="_blank" rel="noopener">NAISS</a></div>
+          </div>
+          <span class="pill">2026 &ndash; Present</span>
+        </div>
+        <div class="chips xp-topics"><span class="chip">AI Training</span><span class="chip">Consultancy</span><span class="chip">Automation</span></div>
+      </div>
 
-  <div class="entry">
-    <b>Postdoctoral Researcher</b> — Department of Information Technology, Uppsala University, Sweden
-    <div class="meta">Oct 2024 &ndash; Present</div>
-    <ul>
-      <li>Developed a domain continual learning-based intrusion detection system for RPL-IoT attack domains, evaluating catastrophic forgetting under distributional shift across heterogeneous IoT traffic.</li>
-      <li>Designing a domain continual learning framework for aggregation-free event-driven federated learning using knowledge distillation, to reduce catastrophic forgetting caused by spatio-temporal data heterogeneity in distributed IoT environments. <i>(Ongoing)</i></li>
-      <li>Investigated the use of the MOMENT foundation model for multi-class attack identification in RPL-based IoT networks, demonstrating competitive attack detection and effective differentiation among Blackhole, DIS Flooding, Worst Parent, and Local Repair attacks.</li>
-      <li>Developed an LSTM-based intrusion detection system for RPL-based IoT networks that enhances attack detection by integrating TX/RX radio features with routing-layer features, achieving up to ~4% improvement in F1-score across DIS-Flooding, Local Repair, and Worst Parent attacks.</li>
-      <li>Developed FedLIME, a clustered federated learning method that groups clients by LIME attribution (explainability) divergence instead of weight similarity. <i>(Ongoing)</i></li>
-    </ul>
-  </div>
+      <div class="tl-item card">
+        <div class="xp-row">
+          <a class="logo-tile" href="https://www.uu.se/" target="_blank" rel="noopener"><img src="assets/img/logos/uppsala-university.svg" alt="Uppsala University" /></a>
+          <div class="xp-main">
+            <div class="tl-role">Postdoctoral Researcher</div>
+            <div class="tl-org">Department of Information Technology, Uppsala University</div>
+          </div>
+          <span class="pill">Oct 2024 &ndash; 2026</span>
+        </div>
+        <div class="chips xp-topics"><span class="chip">IoT Cyber Security</span><span class="chip">Intrusion Detection</span><span class="chip">Federated Learning</span><span class="chip">Continual Learning</span><span class="chip">Foundation Models</span><span class="chip">Explainable AI</span></div>
+      </div>
 
-  <div class="entry">
-    <b>Research Intern</b> — Institute of High Performance Computing, A*STAR IHPC, Singapore
-    <div class="meta">Apr 2024 &ndash; Jun 2024</div>
-    <ul>
-      <li>Designed a Federated Image Privacy Advisor using personalized FL daisy-chaining, achieving a 30% improvement in privacy scoring accuracy over global FL baselines. Conducted multi-modal (text + image) FL experiments; compared privacy risks under global and personalized FL settings across multiple attack scenarios.</li>
-    </ul>
-  </div>
+      <div class="tl-item card">
+        <div class="xp-row">
+          <a class="logo-tile" href="https://www.a-star.edu.sg/ihpc" target="_blank" rel="noopener"><img src="assets/img/logos/a-star.png" alt="A*STAR" /></a>
+          <div class="xp-main">
+            <div class="tl-role">Research Intern</div>
+            <div class="tl-org">Institute of High Performance Computing, A*STAR, Singapore</div>
+          </div>
+          <span class="pill">Apr &ndash; Jun 2024</span>
+        </div>
+        <div class="chips xp-topics"><span class="chip">Personalized Federated Learning</span><span class="chip">Image Privacy</span><span class="chip">Multi-modal Learning</span></div>
+      </div>
 
-  <div class="entry">
-    <b>Doctoral Researcher</b> — Department of Computing Science, Umeå University, Sweden
-    <div class="meta">Jun 2020 &ndash; Sep 2024</div>
-    <ul>
-      <li>Authored and defended a Ph.D. thesis covering personalized FL algorithms, feature selection, straggler mitigation, event-memorability and privacy risk prediction.</li>
-      <li>Designed scalable personalized FL algorithms addressing statistical heterogeneity (non-IID distributions) with rigorous convergence analysis.</li>
-      <li>Developed privacy risk prediction models quantifying per-client leakage as a function of model architecture and aggregation strategy.</li>
-      <li>Built personalized FL models for cognitive science (event memorability prediction).</li>
-    </ul>
-  </div>
+      <div class="tl-item card">
+        <div class="xp-row">
+          <a class="logo-tile" href="https://www.umu.se/en/" target="_blank" rel="noopener"><img src="assets/img/logos/umea-university.svg" alt="Umeå University" /></a>
+          <div class="xp-main">
+            <div class="tl-role">Doctoral Researcher</div>
+            <div class="tl-org">Department of Computing Science, Umeå University</div>
+          </div>
+          <span class="pill">Jun 2020 &ndash; Sep 2024</span>
+        </div>
+        <div class="chips xp-topics"><span class="chip">Federated Learning</span><span class="chip">Personalization</span><span class="chip">Feature Selection</span><span class="chip">Privacy Risk Prediction</span><span class="chip">Event Memorability</span></div>
+      </div>
 
-  <div class="entry">
-    <b>Research Fellow</b> — Department of Computer Science &amp; Engineering, IIT Patna, India
-    <div class="meta">Aug 2018 &ndash; Jun 2020</div>
-    <ul>
-      <li>Designed an edge-deployable computer vision model for banned object detection in real-time.</li>
-      <li>Delivered an embedded ML solution optimised for resource-constrained edge environments, resulting in a granted Indian patent.</li>
-    </ul>
-  </div>
+      <div class="tl-item card">
+        <div class="xp-row">
+          <a class="logo-tile" href="https://www.iitp.ac.in/" target="_blank" rel="noopener"><img src="assets/img/logos/iit-patna.png" alt="IIT Patna" /></a>
+          <div class="xp-main">
+            <div class="tl-role">Research Fellow</div>
+            <div class="tl-org">Department of Computer Science &amp; Engineering, IIT Patna</div>
+          </div>
+          <span class="pill">Aug 2018 &ndash; Jun 2020</span>
+        </div>
+        <div class="chips xp-topics"><span class="chip">Edge AI</span><span class="chip">Computer Vision</span><span class="chip">Object Detection</span></div>
+      </div>
+    </div>
+  </section>
 
-  <h2>Technical Skills</h2>
-  <ul>
-    <li><b>Federated Learning Frameworks:</b> FEDn, Flower, NVIDIA FLARE</li>
-    <li><b>ML / Data Science:</b> Federated Learning, Continual Learning, Personalised ML, Statistical Optimisation, Feature Selection, Predictive Modelling, Time-Series Modelling, Multi-modal Analysis, Anomaly Detection, Privacy-Preserving AI</li>
-    <li><b>Deep Learning:</b> CNN, LSTM, GAN, VAE, Transformers, Autoencoder, Diffusion Models</li>
-    <li><b>GenAI / LLM:</b> RAG, vector databases, Agentic AI, Fine-tuning, LoRA/PEFT</li>
-    <li><b>Data Science Stack:</b> Python, PyTorch, scikit-learn, pandas, NumPy, Matplotlib, Seaborn, SQL</li>
-    <li><b>MLOps / DevOps:</b> Docker, Kubernetes, Git, GCP, Azure</li>
-    <li><b>Programming Languages:</b> Python, JAX, C/C++, Java</li>
-  </ul>
+  <section class="reveal">
+    <h2>Education</h2>
+    <div class="grid grid-2">
+      <div class="card">
+        <span class="pill">2020 &ndash; 2024</span>
+        <h3>Ph.D. in Computing Science</h3>
+        <div class="meta">Umeå University, Sweden</div>
+        <p class="meta" style="margin-top:.6em">Thesis: &ldquo;Advancing Federated Learning: Algorithms and Use-Cases.&rdquo;<br />
+        Supervisors: Assoc. Prof. Monowar Bhuyan; Prof. Erik Elmroth</p>
+      </div>
+      <div class="card">
+        <span class="pill">2016 &ndash; 2018</span>
+        <h3>M.Tech. in Computer Science &amp; Engineering</h3>
+        <div class="meta">University of Calcutta, India &middot; First Class, 82.83%</div>
+        <p class="meta" style="margin-top:.6em">Thesis: &ldquo;A Framework Towards Generalized Mid-term Energy Forecasting Model for Industrial Sector in Smart Grid.&rdquo; Supervisor: Prof. Nabendu Chaki</p>
+      </div>
+      <div class="card">
+        <span class="pill">2014 &ndash; 2016</span>
+        <h3>M.Sc. in Computer Science</h3>
+        <div class="meta">University of Calcutta, India &middot; First Class, 75.54%</div>
+        <p class="meta" style="margin-top:.6em">Thesis: &ldquo;A Design towards Reduced Message Complexity using Symmetric Algorithm for Process Synchronization.&rdquo; Supervisor: Prof. Nabendu Chaki</p>
+      </div>
+      <div class="card">
+        <span class="pill">2011 &ndash; 2014</span>
+        <h3>B.Sc. in Computer Science (Hons.)</h3>
+        <div class="meta">St. Xavier&rsquo;s College, India &middot; First Class, 71%</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <h2>Technical Skills</h2>
+    <div class="card">
+      <div class="skill-group">
+        <div class="label">Federated Learning Frameworks</div>
+        <div class="chips"><span class="chip">FEDn</span><span class="chip">Flower</span><span class="chip">NVIDIA FLARE</span></div>
+      </div>
+      <div class="skill-group">
+        <div class="label">ML / Data Science</div>
+        <div class="chips"><span class="chip">Federated Learning</span><span class="chip">Continual Learning</span><span class="chip">Personalised ML</span><span class="chip">Statistical Optimisation</span><span class="chip">Feature Selection</span><span class="chip">Predictive Modelling</span><span class="chip">Time-Series Modelling</span><span class="chip">Multi-modal Analysis</span><span class="chip">Anomaly Detection</span><span class="chip">Privacy-Preserving AI</span></div>
+      </div>
+      <div class="skill-group">
+        <div class="label">Deep Learning</div>
+        <div class="chips"><span class="chip">CNN</span><span class="chip">LSTM</span><span class="chip">GAN</span><span class="chip">VAE</span><span class="chip">Transformers</span><span class="chip">Autoencoder</span><span class="chip">Diffusion Models</span></div>
+      </div>
+      <div class="skill-group">
+        <div class="label">GenAI / LLM</div>
+        <div class="chips"><span class="chip">RAG</span><span class="chip">Vector Databases</span><span class="chip">Agentic AI</span><span class="chip">Fine-tuning</span><span class="chip">LoRA / PEFT</span></div>
+      </div>
+      <div class="skill-group">
+        <div class="label">Data Science Stack</div>
+        <div class="chips"><span class="chip">Python</span><span class="chip">PyTorch</span><span class="chip">scikit-learn</span><span class="chip">pandas</span><span class="chip">NumPy</span><span class="chip">Matplotlib</span><span class="chip">Seaborn</span><span class="chip">SQL</span></div>
+      </div>
+      <div class="skill-group">
+        <div class="label">MLOps / DevOps</div>
+        <div class="chips"><span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Git</span><span class="chip">GCP</span><span class="chip">Azure</span></div>
+      </div>
+      <div class="skill-group" style="margin-bottom:0">
+        <div class="label">Programming Languages</div>
+        <div class="chips"><span class="chip">Python</span><span class="chip">JAX</span><span class="chip">C/C++</span><span class="chip">Java</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reveal" id="contact">
+    <div class="contact-cta">
+      <div class="contact-cta-text">
+        <span class="eyebrow">Contact me</span>
+        <h2 class="cta-title">Let&rsquo;s work together</h2>
+        <p>
+          Interested in AI training, help with an AI project, a research collaboration, or an invited talk?
+          I&rsquo;d be glad to hear from you.
+        </p>
+        <a class="btn btn-light" href="mailto:sourasb05@gmail.com">Send me an email →</a>
+      </div>
+      <div class="contact-methods">
+        <a class="contact-method" href="mailto:sourasb05@gmail.com">
+          <span class="cm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+          <span><span class="cm-label">Email</span><span class="cm-value">sourasb05@gmail.com</span></span>
+        </a>
+        <a class="contact-method" href="tel:+46730987453">
+          <span class="cm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg></span>
+          <span><span class="cm-label">Phone</span><span class="cm-value">+46 730 987 453</span></span>
+        </a>
+        <div class="contact-method">
+          <span class="cm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <span><span class="cm-label">Based in</span><span class="cm-value">Sweden</span></span>
+        </div>
+        <div class="cm-social">
+          <a href="https://linkedin.com/in/sourasekhar-banerjee-7a7b707a" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/sourasb05" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=x5fi0xUAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <div id="footer">
-    &copy; 2026 Sourasekhar Banerjee. Built with plain HTML/CSS, hosted on GitHub Pages.
+    &copy; 2026 Sourasekhar Banerjee. Hosted on GitHub Pages.
   </div>
 
 </main>
-</div>
-<script src="assets/js/main.js"></script>
 </body>
 </html>

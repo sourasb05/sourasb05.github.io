@@ -4,13 +4,15 @@ Personal homepage for Sourasekhar Banerjee, built as plain static HTML/CSS (no b
 
 ## Structure
 
-- `index.html` — Home (profile, research interests, education, experience, skills)
+- `index.html` — Home (profile, recent news, research interests, experience, education, skills)
+- `news.html` — Full news list with category filters
 - `publications.html` — Journal, conference, workshop, book chapter, and patent listings
 - `teaching.html` — Teaching experience, pedagogical training, student supervision
 - `service.html` — Peer review, invited talks, grants & funding
 - `contact.html` — Contact details
 - `assets/css/style.css` — Shared stylesheet
-- `assets/js/main.js` — Mobile menu toggle
+- `assets/js/main.js` — Mobile menu, dark-mode toggle, news rendering
+- `assets/js/news.js` — **News items — edit this file to add activities** (newest first)
 - `assets/img/profile.png` — Profile photo
 - `assets/doc/Sourasekhar_Banerjee_CV.pdf` — Downloadable CV
 

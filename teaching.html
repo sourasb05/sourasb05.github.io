@@ -4,33 +4,35 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Teaching &amp; Supervision — Sourasekhar Banerjee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="assets/css/style.css" />
+<script src="assets/js/main.js"></script>
 </head>
 <body>
-<div class="layout">
-
-<aside class="sidebar">
-  <div class="site-name">Sourasekhar Banerjee</div>
-  <button class="menu-toggle" aria-label="Toggle menu">☰ Menu</button>
-  <nav class="sidebar-nav">
-    <div class="menu-category">Menu</div>
-    <div class="menu-item"><a href="index.html">Home</a></div>
-
-    <div class="menu-category">Research</div>
-    <div class="menu-item"><a href="publications.html">Publications</a></div>
-    <div class="menu-item"><a href="service.html">Professional&nbsp;Service</a></div>
-
-    <div class="menu-category">Teaching</div>
-    <div class="menu-item"><a href="teaching.html" class="current">Teaching&nbsp;&amp;&nbsp;Supervision</a></div>
-
-    <div class="menu-category">Others</div>
-    <div class="menu-item"><a href="assets/doc/Sourasekhar_Banerjee_CV.pdf">CV</a></div>
-    <div class="menu-item"><a href="contact.html">Contact</a></div>
+<header class="site-header">
+<div class="header-inner">
+  <a class="brand" href="index.html"><span class="brand-mark">SB</span><span>Sourasekhar Banerjee</span></a>
+  <button class="icon-btn menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="publications.html">Publications</a>
+    <a href="service.html">Service</a>
+    <a href="teaching.html" class="current">Teaching</a>
+    <a href="contact.html">Contact</a>
+    <a class="nav-cv" href="assets/doc/Sourasekhar_Banerjee_CV.pdf" target="_blank" rel="noopener">CV ↓</a>
   </nav>
-</aside>
-
+  <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">☾</button>
+</div>
+</header>
 <main class="content">
-  <h1>Teaching &amp; Supervision</h1>
+  <div class="page-head">
+    <span class="eyebrow">Teaching</span>
+    <h1>Teaching &amp; Supervision</h1>
+    <p>Courses I have taught, pedagogical training, and the students I have supervised.</p>
+  </div>
 
   <h2>Pedagogical Training</h2>
   <div class="entry">
@@ -61,6 +63,7 @@
   </div>
 
   <h2>Student Supervision</h2>
+  <div class="section-card">
   <h3>Master's Thesis</h3>
   <ul>
     <li>&ldquo;Machine Learning for Cybersecurity in Internet of Things Networks.&rdquo; — Yichang Sun [2026] <i>(Completed)</i></li>
@@ -72,12 +75,11 @@
     <li>&ldquo;Intrusion Detection System Generalisation in IoT Blackhole Attacks&rdquo; — Oskar Nylin [2025] <i>(Completed)</i></li>
     <li>&ldquo;Assessing the Generalizability and Scalability of an IoT Intrusion Detection System against DIS-Flooding Attack Variants&rdquo; — Hans-Eskil Ytterfelt Martinsson [2025] <i>(Completed)</i></li>
   </ul>
+  </div>
 
   <div id="footer">
-    &copy; 2026 Sourasekhar Banerjee.
+    &copy; 2026 Sourasekhar Banerjee. Hosted on GitHub Pages.
   </div>
 </main>
-</div>
-<script src="assets/js/main.js"></script>
 </body>
 </html>
