@@ -114,5 +114,11 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   document.getElementById("conf-updated").textContent = data.updated;
+  var openAll = data.items.filter(function (c) { return c.open; });
+  var soon = openAll.filter(function (c) { return c.deadline && (new Date(c.deadline) - now) / 86400000 <= 30; });
+  var setStat = function (id, n) { var el = document.getElementById(id); if (el) el.textContent = n; };
+  setStat("conf-stat-open", openAll.length);
+  setStat("conf-stat-soon", soon.length);
+  setStat("conf-stat-total", data.items.length);
   render();
 });

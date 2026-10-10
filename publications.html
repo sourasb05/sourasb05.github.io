@@ -7,8 +7,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/css/style.css?v=20261014" />
-<script src="assets/js/main.js?v=20261014"></script>
+<link rel="stylesheet" href="assets/css/style.css?v=20261016" />
+<script src="assets/js/main.js?v=20261016"></script>
+<script src="assets/js/network-bg.js?v=20261016"></script>
+<script src="assets/js/publications.js?v=20261016"></script>
 </head>
 <body>
 <header class="site-header">
@@ -31,154 +33,186 @@
 </div>
 </header>
 <main class="content">
-  <div class="page-head">
+  <section class="learn-hero teach-hero" data-network="federated" data-network-tone="light">
     <span class="eyebrow">Research</span>
     <h1>Publications</h1>
-    <p>Journal articles, conference and workshop papers, book chapters and patents. See also <a href="https://scholar.google.com/citations?user=x5fi0xUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
+    <p>Research on federated learning, continual learning, privacy and IoT security, published at venues such as WACV, ECML-PKDD, IEEE ICC and IEEE TAI. Full list also on <a class="hero-link" href="https://scholar.google.com/citations?user=x5fi0xUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a></p>
+    <div class="hero-stats">
+      <div><span class="stat-num">18</span><span class="stat-label">Publications</span></div>
+      <div><span class="stat-num">12</span><span class="stat-label">Conference papers</span></div>
+      <div><span class="stat-num">5</span><span class="stat-label">Journal, workshop &amp; chapters</span></div>
+      <div><span class="stat-num">1</span><span class="stat-label">Granted patent</span></div>
+    </div>
+  </section>
+
+  <div class="conf-toolbar pub-toolbar">
+    <div class="news-filters" id="pub-filters">
+      <button class="chip-btn" data-filter="" aria-pressed="true">All</button>
+      <button class="chip-btn" data-filter="journal" aria-pressed="false">Journal</button>
+      <button class="chip-btn" data-filter="conference" aria-pressed="false">Conference</button>
+      <button class="chip-btn" data-filter="workshop" aria-pressed="false">Workshop</button>
+      <button class="chip-btn" data-filter="chapter" aria-pressed="false">Book chapter</button>
+      <button class="chip-btn" data-filter="patent" aria-pressed="false">Patent</button>
+    </div>
+    <input id="pub-search" class="conf-search" type="search" placeholder="Search title, author or venue…" aria-label="Search publications" />
   </div>
+  <p class="meta pub-empty" id="pub-empty" hidden>No publications match your search.</p>
 
-  <!-- Each [Code] link below is a placeholder: https://github.com/sourasb05/REPO-NAME
-       Replace REPO-NAME with the actual repository for that paper, or delete the
-       <a class="code-link"> line entirely for papers with no public code. -->
+  <section class="pub-section" data-type="journal">
+    <h2>Journal Articles <span class="count-pill">1</span></h2>
+    <div class="pub-list">
+    <article class="card pub-card" data-type="journal" data-search="cost-efficient feature selection for horizontal federated learning banerjee, s., bhuyan, d., elmroth, e., and bhuyan, m. ieee transactions on artificial intelligence, vol. 5, no. 12, pp. 6551&ndash;6565.">
+      <div class="pub-top"><span class="pub-badge" data-type="journal">IEEE TAI 2024</span><span class="pub-type">Journal</span></div>
+      <h3 class="pub-title">Cost-Efficient Feature Selection for Horizontal Federated Learning</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Bhuyan, D., Elmroth, E., and Bhuyan, M.</div>
+      <div class="pub-venue"><span class="venue">IEEE Transactions on Artificial Intelligence</span>, vol. 5, no. 12, pp. 6551&ndash;6565.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://ieeexplore.ieee.org/abstract/document/10620005" target="_blank" rel="noopener">📄 PDF</a><a class="pub-btn code" href="https://github.com/DevBhuyan/Horz-FL.git" target="_blank" rel="noopener">⌨ Code</a></div>
+    </article>
+    </div>
+  </section>
 
-  <h2>Journal Articles</h2>
-  <ol>
-    <li class="entry">
-      Banerjee, S., Bhuyan, D., Elmroth, E., and Bhuyan, M. (2024). &ldquo;Cost-Efficient Feature Selection for Horizontal Federated Learning.&rdquo; <span class="venue">IEEE Transactions on Artificial Intelligence</span>, vol. 5, no. 12, pp. 6551&ndash;6565.
-      <div class="pub-links">
-        <a href="https://ieeexplore.ieee.org/abstract/document/10620005" target="_blank" rel="noopener">[PDF]</a>
-        <a class="code-link" href="https://github.com/DevBhuyan/Horz-FL.git" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-  </ol>
+  <section class="pub-section" data-type="conference">
+    <h2>Conference Papers <span class="count-pill">12</span></h2>
+    <div class="pub-list">
+    <article class="card pub-card" data-type="conference" data-search="quantifying catastrophic forgetting in iot intrusion detection systems banerjee, s., bergqvist, d., toor, s., rohner, c., and johnsson, a. proc. ieee international conference on communications (icc).">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">ICC 2026</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">Quantifying Catastrophic Forgetting in IoT Intrusion Detection Systems</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Bergqvist, D., Toor, S., Rohner, C., and Johnsson, A.</div>
+      <div class="pub-venue"><span class="venue">Proc. IEEE International Conference on Communications (ICC)</span>.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://arxiv.org/pdf/2603.00363" target="_blank" rel="noopener">📄 Preprint</a><a class="pub-btn code" href="https://github.com/uu-core/IoT-Attacks-IDS.git" target="_blank" rel="noopener">⌨ Code</a></div>
+    </article>
+    <article class="card pub-card" data-type="conference" data-search="personalized image privacy advisors via federated daisy-chaining banerjee, s., subramaniam, v., roy, d., subbaraju, v., and bhuyan, m. proc. ieee/cvf winter conference on applications of computer vision (wacv), pp. 2808&ndash;2817.">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">WACV 2026</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">Personalized Image Privacy Advisors via Federated Daisy-Chaining</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Subramaniam, V., Roy, D., Subbaraju, V., and Bhuyan, M.</div>
+      <div class="pub-venue"><span class="venue">Proc. IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</span>, pp. 2808&ndash;2817.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://openaccess.thecvf.com/content/WACV2026/papers/Banerjee_Personalized_Image_Privacy_Advisors_via_Federated_Daisy-Chaining_WACV_2026_paper.pdf" target="_blank" rel="noopener">📄 PDF</a><a class="pub-btn code" href="https://github.com/sourasb05/Fed-DIPA2.git" target="_blank" rel="noopener">⌨ Code</a></div>
+    </article>
+    <article class="card pub-card" data-type="conference" data-search="predicting event memorability using personalized federated learning banerjee, s., roy, d., subbaraju, v., and bhuyan, m. proc. ieee/cvf winter conference on applications of computer vision (wacv), pp. 1556&ndash;1565.">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">WACV 2025</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">Predicting Event Memorability Using Personalized Federated Learning</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Roy, D., Subbaraju, V., and Bhuyan, M.</div>
+      <div class="pub-venue"><span class="venue">Proc. IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</span>, pp. 1556&ndash;1565.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://openaccess.thecvf.com/content/WACV2025/papers/Banerjee_Predicting_Event_Memorability_using_Personalized_Federated_Learning_WACV_2025_paper.pdf" target="_blank" rel="noopener">📄 PDF</a><a class="pub-btn code" href="https://github.com/sourasb05/FedMEM.git" target="_blank" rel="noopener">⌨ Code</a></div>
+    </article>
+    <article class="card pub-card" data-type="conference" data-search="federated frank-wolfe algorithm dadras, a., banerjee, s., prakhya, k., and yurtsever, a. proc. joint european conference on machine learning and knowledge discovery in databases (ecml-pkdd), pp. 58&ndash;75. springer.">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">ECML-PKDD 2024</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">Federated Frank-Wolfe Algorithm</h3>
+      <div class="pub-authors">Dadras, A., <b>Banerjee, S.</b>, Prakhya, K., and Yurtsever, A.</div>
+      <div class="pub-venue"><span class="venue">Proc. Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD)</span>, pp. 58&ndash;75. Springer.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://arxiv.org/pdf/2408.10090" target="_blank" rel="noopener">📄 PDF</a><a class="pub-btn code" href="https://github.com/sourasb05/Federated-Frank-Wolfe.git" target="_blank" rel="noopener">⌨ Code</a></div>
+    </article>
+    <article class="card pub-card" data-type="conference" data-search="personalized multi-tier federated learning banerjee, s., dadras, a., yurtsever, a., and bhuyan, m. proc. international conference on neural information processing (iconip), pp. 192&ndash;207. springer. (early version presented at fl-neurips workshop, 2022.)">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">ICONIP 2024</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">Personalized Multi-tier Federated Learning</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Dadras, A., Yurtsever, A., and Bhuyan, M.</div>
+      <div class="pub-venue"><span class="venue">Proc. International Conference on Neural Information Processing (ICONIP)</span>, pp. 192&ndash;207. Springer. <span class="meta">(Early version presented at FL-NeurIPS Workshop, 2022.)</span></div>
+      <div class="pub-actions"><a class="pub-btn" href="https://arxiv.org/pdf/2407.14251" target="_blank" rel="noopener">📄 PDF</a><a class="pub-btn code" href="https://github.com/sourasb05/PerMFL_1.git" target="_blank" rel="noopener">⌨ Code</a></div>
+    </article>
+    <article class="card pub-card" data-type="conference" data-search="towards post-disaster damage assessment using deep transfer learning and gan-based data augmentation banerjee, s., patel, y. s., kumar, p., and bhuyan, m. proc. 24th international conference on distributed computing and networking (icdcn), pp. 372&ndash;377. acm.">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">ICDCN 2023</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">Towards Post-disaster Damage Assessment using Deep Transfer Learning and GAN-based Data Augmentation</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Patel, Y. S., Kumar, P., and Bhuyan, M.</div>
+      <div class="pub-venue"><span class="venue">Proc. 24th International Conference on Distributed Computing and Networking (ICDCN)</span>, pp. 372&ndash;377. ACM.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://dl.acm.org/doi/pdf/10.1145/3571306.3571438" target="_blank" rel="noopener">📄 PDF</a></div>
+    </article>
+    <article class="card pub-card" data-type="conference" data-search="optimized and adaptive federated learning for straggler-resilient device selection banerjee, s., vu, x.-s., and bhuyan, m. proc. international joint conference on neural networks (ijcnn), pp. 1&ndash;9. ieee.">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">IJCNN 2022</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">Optimized and Adaptive Federated Learning for Straggler-Resilient Device Selection</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Vu, X.-S., and Bhuyan, M.</div>
+      <div class="pub-venue"><span class="venue">Proc. International Joint Conference on Neural Networks (IJCNN)</span>, pp. 1&ndash;9. IEEE.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://ieeexplore.ieee.org/document/9892777" target="_blank" rel="noopener">📄 PDF</a><a class="pub-btn code" href="https://github.com/sourasb05/straggler_FL.git" target="_blank" rel="noopener">⌨ Code</a></div>
+    </article>
+    <article class="card pub-card" data-type="conference" data-search="fed-fis: a novel information-theoretic federated feature selection for learning stability banerjee, s., elmroth, e., and bhuyan, m. proc. international conference on neural information processing (iconip), pp. 480&ndash;487. springer.">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">ICONIP 2021</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">Fed-FiS: A Novel Information-Theoretic Federated Feature Selection for Learning Stability</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Elmroth, E., and Bhuyan, M.</div>
+      <div class="pub-venue"><span class="venue">Proc. International Conference on Neural Information Processing (ICONIP)</span>, pp. 480&ndash;487. Springer.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://link.springer.com/chapter/10.1007/978-3-030-92307-5_56" target="_blank" rel="noopener">📄 PDF</a><a class="pub-btn code" href="https://github.com/DevBhuyan/Horz-FL.git" target="_blank" rel="noopener">⌨ Code</a></div>
+    </article>
+    <article class="card pub-card" data-type="conference" data-search="multi-diseases classification from chest x-ray: a federated deep learning approach banerjee, s., misra, r., prasad, m., elmroth, e., and bhuyan, m. proc. australasian joint conference on artificial intelligence (ai 2020), pp. 3&ndash;15. springer.">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">AI 2020</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">Multi-diseases Classification from Chest X-ray: A Federated Deep Learning Approach</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Misra, R., Prasad, M., Elmroth, E., and Bhuyan, M.</div>
+      <div class="pub-venue"><span class="venue">Proc. Australasian Joint Conference on Artificial Intelligence (AI 2020)</span>, pp. 3&ndash;15. Springer.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://link.springer.com/chapter/10.1007/978-3-030-64984-5_1" target="_blank" rel="noopener">📄 PDF</a></div>
+    </article>
+    <article class="card pub-card" data-type="conference" data-search="low-latency energy-efficient cyber-physical disaster system using edge deep learning patel, y. s., banerjee, s., misra, r., and das, s. k. proc. 21st international conference on distributed computing and networking (icdcn), pp. 34:1&ndash;34:6. acm.">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">ICDCN 2020</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">Low-Latency Energy-Efficient Cyber-Physical Disaster System Using Edge Deep Learning</h3>
+      <div class="pub-authors">Patel, Y. S., <b>Banerjee, S.</b>, Misra, R., and Das, S. K.</div>
+      <div class="pub-venue"><span class="venue">Proc. 21st International Conference on Distributed Computing and Networking (ICDCN)</span>, pp. 34:1&ndash;34:6. ACM.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://dl.acm.org/doi/pdf/10.1145/3369740.3372752" target="_blank" rel="noopener">📄 PDF</a></div>
+    </article>
+    <article class="card pub-card" data-type="conference" data-search="a framework towards generalized mid-term energy forecasting model for industrial sector in smart grid chakraborty, m., banerjee, s., and chaki, n. proc. international conference on distributed computing and internet technology (icdcit), pp. 296&ndash;310. springer.">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">ICDCIT 2020</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">A Framework Towards Generalized Mid-term Energy Forecasting Model for Industrial Sector in Smart Grid</h3>
+      <div class="pub-authors">Chakraborty, M., <b>Banerjee, S.</b>, and Chaki, N.</div>
+      <div class="pub-venue"><span class="venue">Proc. International Conference on Distributed Computing and Internet Technology (ICDCIT)</span>, pp. 296&ndash;310. Springer.</div>
+      
+    </article>
+    <article class="card pub-card" data-type="conference" data-search="a novel symmetric algorithm for process synchronization in distributed systems banerjee, s., mukherjee, p., kanrar, s., and chaki, n. algorithms and applications: alap 2018, pp. 51&ndash;66. springer singapore.">
+      <div class="pub-top"><span class="pub-badge" data-type="conference">ALAP 2018</span><span class="pub-type">Conference</span></div>
+      <h3 class="pub-title">A novel symmetric algorithm for process synchronization in distributed systems</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Mukherjee, P., Kanrar, S., and Chaki, N.</div>
+      <div class="pub-venue"><span class="venue">Algorithms and Applications: ALAP 2018</span>, pp. 51&ndash;66. Springer Singapore.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://www.researchgate.net/profile/Sourasekhar-Banerjee/publication/324949119_A_Novel_Symmetric_Algorithm_for_Process_Synchronization_in_Distributed_Systems/links/5b784a8e4585151fd11f76f1/A-Novel-Symmetric-Algorithm-for-Process-Synchronization-in-Distributed-Systems.pdf" target="_blank" rel="noopener">📄 PDF</a></div>
+    </article>
+    </div>
+  </section>
 
-  <h2>Conference Papers</h2>
-  <ol>
-    <li class="entry">
-      Banerjee, S., Bergqvist, D., Toor, S., Rohner, C., and Johnsson, A. (2026). &ldquo;Quantifying Catastrophic Forgetting in IoT Intrusion Detection Systems.&rdquo; In <span class="venue">Proc. IEEE International Conference on Communications (ICC)</span>.
-      <div class="pub-links">
-        <a href="https://arxiv.org/pdf/2603.00363" target="_blank" rel="noopener">[Preprint]</a>
-        <a class="code-link" href="https://github.com/uu-core/IoT-Attacks-IDS.git" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-    <li class="entry">
-      Banerjee, S., Subramaniam, V., Roy, D., Subbaraju, V., and Bhuyan, M. (2026). &ldquo;Personalized Image Privacy Advisors via Federated Daisy-Chaining.&rdquo; In <span class="venue">Proc. IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</span>, pp. 2808&ndash;2817.
-      <div class="pub-links">
-        <a href="https://openaccess.thecvf.com/content/WACV2026/papers/Banerjee_Personalized_Image_Privacy_Advisors_via_Federated_Daisy-Chaining_WACV_2026_paper.pdf" target="_blank" rel="noopener">[PDF]</a>
-        <a class="code-link" href="https://github.com/sourasb05/Fed-DIPA2.git" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-    <li class="entry">
-      Banerjee, S., Roy, D., Subbaraju, V., and Bhuyan, M. (2025). &ldquo;Predicting Event Memorability Using Personalized Federated Learning.&rdquo; In <span class="venue">Proc. IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</span>, pp. 1556&ndash;1565.
-      <div class="pub-links">
-        <a href="https://openaccess.thecvf.com/content/WACV2025/papers/Banerjee_Predicting_Event_Memorability_using_Personalized_Federated_Learning_WACV_2025_paper.pdf" target="_blank" rel="noopener">[PDF]</a>
-        <a class="code-link" href="https://github.com/sourasb05/FedMEM.git" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-    <li class="entry">
-      Dadras, A., Banerjee, S., Prakhya, K., and Yurtsever, A. (2024). &ldquo;Federated Frank-Wolfe Algorithm.&rdquo; In <span class="venue">Proc. Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD)</span>, pp. 58&ndash;75. Springer.
-      <div class="pub-links">
-        <a href="https://arxiv.org/pdf/2408.10090" target="_blank" rel="noopener">[PDF]</a>
-        <a class="code-link" href="https://github.com/sourasb05/Federated-Frank-Wolfe.git" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-    <li class="entry">
-      Banerjee, S., Dadras, A., Yurtsever, A., and Bhuyan, M. (2024). &ldquo;Personalized Multi-tier Federated Learning.&rdquo; In <span class="venue">Proc. International Conference on Neural Information Processing (ICONIP)</span>, pp. 192&ndash;207. Springer. <span class="meta">(Early version presented at FL-NeurIPS Workshop, 2022.)</span>
-      <div class="pub-links">
-        <a href="https://arxiv.org/pdf/2407.14251" target="_blank" rel="noopener">[PDF]</a>
-        <a class="code-link" href="https://github.com/sourasb05/PerMFL_1.git" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-    <li class="entry">
-      Banerjee, S., Patel, Y. S., Kumar, P., and Bhuyan, M. (2023). &ldquo;Towards Post-disaster Damage Assessment using Deep Transfer Learning and GAN-based Data Augmentation.&rdquo; In <span class="venue">Proc. 24th International Conference on Distributed Computing and Networking (ICDCN)</span>, pp. 372&ndash;377. ACM.
-      <div class="pub-links">
-        <a href="https://dl.acm.org/doi/pdf/10.1145/3571306.3571438" target="_blank" rel="noopener">[PDF]</a>
-      </div>
-    </li>
-    <li class="entry">
-      Banerjee, S., Vu, X.-S., and Bhuyan, M. (2022). &ldquo;Optimized and Adaptive Federated Learning for Straggler-Resilient Device Selection.&rdquo; In <span class="venue">Proc. International Joint Conference on Neural Networks (IJCNN)</span>, pp. 1&ndash;9. IEEE.
-      <div class="pub-links">
-        <a href="https://ieeexplore.ieee.org/document/9892777" target="_blank" rel="noopener">[PDF]</a>
-        <a class="code-link" href="https://github.com/sourasb05/straggler_FL.git" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-    <li class="entry">
-      Banerjee, S., Elmroth, E., and Bhuyan, M. (2021). &ldquo;Fed-FiS: A Novel Information-Theoretic Federated Feature Selection for Learning Stability.&rdquo; In <span class="venue">Proc. International Conference on Neural Information Processing (ICONIP)</span>, pp. 480&ndash;487. Springer.
-      <div class="pub-links">
-        <a href="https://link.springer.com/chapter/10.1007/978-3-030-92307-5_56" target="_blank" rel="noopener">[PDF]</a>
-        <a class="code-link" href="https://github.com/DevBhuyan/Horz-FL.git" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-    <li class="entry">
-      Banerjee, S., Misra, R., Prasad, M., Elmroth, E., and Bhuyan, M. (2020). &ldquo;Multi-diseases Classification from Chest X-ray: A Federated Deep Learning Approach.&rdquo; In <span class="venue">Proc. Australasian Joint Conference on Artificial Intelligence (AI 2020)</span>, pp. 3&ndash;15. Springer.
-      <div class="pub-links">
-        <a href="https://link.springer.com/chapter/10.1007/978-3-030-64984-5_1" target="_blank" rel="noopener">[PDF]</a>
-        
-      </div>
-    </li>
-    <li class="entry">
-      Patel, Y. S., Banerjee, S., Misra, R., and Das, S. K. (2020). &ldquo;Low-Latency Energy-Efficient Cyber-Physical Disaster System Using Edge Deep Learning.&rdquo; In <span class="venue">Proc. 21st International Conference on Distributed Computing and Networking (ICDCN)</span>, pp. 34:1&ndash;34:6. ACM.
-      <div class="pub-links">
-        <a href="https://dl.acm.org/doi/pdf/10.1145/3369740.3372752" target="_blank" rel="noopener">[PDF]</a>
-        
-      </div>
-    </li>
-    <li class="entry">
-      Chakraborty, M., Banerjee, S., and Chaki, N. (2020). &ldquo;A Framework Towards Generalized Mid-term Energy Forecasting Model for Industrial Sector in Smart Grid.&rdquo; In <span class="venue">Proc. International Conference on Distributed Computing and Internet Technology (ICDCIT)</span>, pp. 296&ndash;310. Springer.
-      <div class="pub-links">
-        
-      </div>
-    </li>
-    <li class="entry">
-      Banerjee, S., Mukherjee, P., Kanrar, S., and Chaki, N. (2018). &ldquo;A novel symmetric algorithm for process synchronization in distributed systems.&rdquo; In <span class="venue">Algorithms and Applications: ALAP 2018</span>, pp. 51&ndash;66. Springer Singapore.
-      <div class="pub-links">
-        <a href="https://www.researchgate.net/profile/Sourasekhar-Banerjee/publication/324949119_A_Novel_Symmetric_Algorithm_for_Process_Synchronization_in_Distributed_Systems/links/5b784a8e4585151fd11f76f1/A-Novel-Symmetric-Algorithm-for-Process-Synchronization-in-Distributed-Systems.pdf" target="_blank" rel="noopener">[PDF]</a>
-        
-      </div>
-    </li>
-  </ol>
+  <section class="pub-section" data-type="workshop">
+    <h2>Workshop Papers <span class="count-pill">3</span></h2>
+    <div class="pub-list">
+    <article class="card pub-card" data-type="workshop" data-search="towards intrusion detection systems for rpl-based iot networks using foundation models lunderbye, e., banerjee, s., rohner, c., and johnsson, a. accepted and presented in the swedish national computer networking workshop (sncnw). arxiv:2606.03530.">
+      <div class="pub-top"><span class="pub-badge" data-type="workshop">SNCNW 2026</span><span class="pub-type">Workshop</span></div>
+      <h3 class="pub-title">Towards Intrusion Detection Systems for RPL-based IoT Networks using Foundation Models</h3>
+      <div class="pub-authors">Lunderbye, E., <b>Banerjee, S.</b>, Rohner, C., and Johnsson, A.</div>
+      <div class="pub-venue">Accepted and presented in the <span class="venue">Swedish National Computer Networking Workshop (SNCNW)</span>. arXiv:2606.03530.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://arxiv.org/pdf/2606.03530" target="_blank" rel="noopener">📄 PDF</a></div>
+    </article>
+    <article class="card pub-card" data-type="workshop" data-search="rethinking iot intrusion detection: augmenting routing metrics with radio features sun, y., johnsson, a., and banerjee, s. accepted and presented in the swedish national computer networking workshop (sncnw). arxiv:2606.07282.">
+      <div class="pub-top"><span class="pub-badge" data-type="workshop">SNCNW 2026</span><span class="pub-type">Workshop</span></div>
+      <h3 class="pub-title">Rethinking IoT Intrusion Detection: Augmenting Routing Metrics with Radio Features</h3>
+      <div class="pub-authors">Sun, Y., Johnsson, A., and <b>Banerjee, S.</b></div>
+      <div class="pub-venue">Accepted and presented in the <span class="venue">Swedish National Computer Networking Workshop (SNCNW)</span>. arXiv:2606.07282.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://arxiv.org/pdf/2606.07282" target="_blank" rel="noopener">📄 PDF</a><a class="pub-btn code" href="https://github.com/sourasb05/radio_iot.git" target="_blank" rel="noopener">⌨ Code</a></div>
+    </article>
+    <article class="card pub-card" data-type="workshop" data-search="personalized multi-tier federated learning banerjee, s., yurtsever, a., and bhuyan, m. accepted and presented in workshop on federated learning: recent advances and new challenges (neurips).">
+      <div class="pub-top"><span class="pub-badge" data-type="workshop">NeurIPS 2022</span><span class="pub-type">Workshop</span></div>
+      <h3 class="pub-title">Personalized Multi-tier Federated Learning</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Yurtsever, A., and Bhuyan, M.</div>
+      <div class="pub-venue">Accepted and presented in <span class="venue">Workshop on Federated Learning: Recent Advances and New Challenges (NeurIPS)</span>.</div>
+      <div class="pub-actions"><a class="pub-btn" href="https://link.springer.com/chapter/10.1007/978-3-030-64984-5_1" target="_blank" rel="noopener">📄 PDF</a></div>
+    </article>
+    </div>
+  </section>
 
-  <h2>Workshop Papers</h2>
-  <ol>
-    <li class="entry">
-      Lunderbye, E., Banerjee, S., Rohner, C., and Johnsson, A. (2026). &ldquo;Towards Intrusion Detection Systems for RPL-based IoT Networks using Foundation Models.&rdquo; Accepted and presented in the <span class="venue">Swedish National Computer Networking Workshop (SNCNW)</span>. arXiv:2606.03530.
-      <div class="pub-links">
-        <a href="https://arxiv.org/pdf/2606.03530" target="_blank" rel="noopener">[PDF]</a>
-        <a class="code-link" href="https://github.com/sourasb05/REPO-NAME" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-    <li class="entry">
-      Sun, Y., Johnsson, A., and Banerjee, S. (2026). &ldquo;Rethinking IoT Intrusion Detection: Augmenting Routing Metrics with Radio Features.&rdquo; Accepted and presented in the <span class="venue">Swedish National Computer Networking Workshop (SNCNW)</span>. arXiv:2606.07282.
-      <div class="pub-links">
-        <a href="https://arxiv.org/pdf/2606.07282" target="_blank" rel="noopener">[PDF]</a>
-        <a class="code-link" href="https://github.com/sourasb05/radio_iot.git" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-    <li class="entry">
-      Banerjee, S., Yurtsever, A., and Bhuyan, M. (2022). &ldquo;Personalized Multi-tier Federated Learning.&rdquo; Accepted and presented in <span class="venue">Workshop on Federated Learning: Recent Advances and New Challenges (NeurIPS)</span>.
-      <div class="pub-links">
-        <a href="https://link.springer.com/chapter/10.1007/978-3-030-64984-5_1" target="_blank" rel="noopener">[PDF]</a>
-        <a class="code-link" href="https://github.com/sourasb05/REPO-NAME" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-  </ol>
+  <section class="pub-section" data-type="chapter">
+    <h2>Book Chapters <span class="count-pill">1</span></h2>
+    <div class="pub-list">
+    <article class="card pub-card" data-type="chapter" data-search="application of deep learning for energy management in smart grid banerjee, s., ghosh, s., and mishra, b. k. deep learning in data analytics: recent techniques, practices and applications, pp. 221&ndash;239. springer.">
+      <div class="pub-top"><span class="pub-badge" data-type="chapter">Springer 2021</span><span class="pub-type">Book chapter</span></div>
+      <h3 class="pub-title">Application of deep learning for energy management in smart grid</h3>
+      <div class="pub-authors"><b>Banerjee, S.</b>, Ghosh, S., and Mishra, B. K.</div>
+      <div class="pub-venue"><span class="venue">Deep Learning in Data Analytics: Recent Techniques, Practices and Applications</span>, pp. 221&ndash;239. Springer.</div>
+      
+    </article>
+    </div>
+  </section>
 
-  <h2>Book Chapters</h2>
-  <ol>
-    <li class="entry">
-      Banerjee, S., Ghosh, S., and Mishra, B. K. (2021). &ldquo;Application of deep learning for energy management in smart grid.&rdquo; In <span class="venue">Deep Learning in Data Analytics: Recent Techniques, Practices and Applications</span>, pp. 221&ndash;239. Springer.
-      <div class="pub-links">
-        <a class="code-link" href="https://github.com/sourasb05/REPO-NAME" target="_blank" rel="noopener">[Code]</a>
-      </div>
-    </li>
-  </ol>
-
-  <h2>Patent</h2>
-  <ol>
-    <li class="entry">
-      Shekhar, H., Banerjee, S., Misra, R., and Patel, Y. S. (2024). &ldquo;System and Method for Detection of Banned Objects from Images in Real-time using Intelligence at the Edge.&rdquo; Indian Patent No. 550543, Application No. 202031006618.
-    </li>
-  </ol>
+  <section class="pub-section" data-type="patent">
+    <h2>Patent <span class="count-pill">1</span></h2>
+    <div class="pub-list">
+    <article class="card pub-card" data-type="patent" data-search="system and method for detection of banned objects from images in real-time using intelligence at the edge shekhar, h., banerjee, s., misra, r., and patel, y. s. indian patent no. 550543, application no. 202031006618.">
+      <div class="pub-top"><span class="pub-badge" data-type="patent">Indian Patent 2024</span><span class="pub-type">Patent</span></div>
+      <h3 class="pub-title">System and Method for Detection of Banned Objects from Images in Real-time using Intelligence at the Edge</h3>
+      <div class="pub-authors">Shekhar, H., <b>Banerjee, S.</b>, Misra, R., and Patel, Y. S.</div>
+      <div class="pub-venue">Indian Patent No. 550543, Application No. 202031006618.</div>
+      
+    </article>
+    </div>
+  </section>
 
   <div id="footer">
     &copy; 2026 Sourasekhar Banerjee. Hosted on GitHub Pages.

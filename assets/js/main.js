@@ -29,6 +29,11 @@
   function renderNews() {
     var news = window.NEWS || [];
 
+    document.querySelectorAll("[data-news-count]").forEach(function (el) {
+      var t = el.getAttribute("data-news-count");
+      el.textContent = news.filter(function (i) { return !t || i.tag === t; }).length;
+    });
+
     // Home page: latest N items.
     var latest = document.getElementById("news-latest");
     if (latest) {
