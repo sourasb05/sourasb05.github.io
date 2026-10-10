@@ -128,10 +128,11 @@ li::marker { color: var(--accent); }
 .site-nav { margin-left: auto; display: flex; align-items: center; gap: 2px; }
 .site-nav a {
   color: var(--text-muted);
-  padding: 7px 12px;
+  padding: 7px 10px;
   border-radius: 8px;
-  font-size: .93em;
+  font-size: .92em;
   font-weight: 500;
+  white-space: nowrap;
 }
 .site-nav a:hover { color: var(--text); background: var(--accent-soft); text-decoration: none; }
 .site-nav a.current { color: var(--accent); background: var(--accent-soft); }
@@ -365,6 +366,49 @@ li::marker { color: var(--accent); }
 .res-btn { font-size: .85em; padding: 6px 14px; }
 .res-btn svg { width: 15px; height: 15px; fill: currentColor; }
 
+/* ---------- Conferences ---------- */
+.conf-toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: .5em; }
+.conf-toolbar .news-filters { margin-bottom: 0; }
+.conf-search {
+  font: inherit; font-size: .92em;
+  padding: 8px 14px; min-width: 240px;
+  border-radius: 999px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+}
+.conf-search:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.count-pill { font-family: var(--font-sans); font-size: .5em; font-weight: 650; padding: 3px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+.conf-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.conf-card { padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; border-left: 4px solid var(--border); }
+.conf-card[data-cat="ai"] { border-left-color: #7c3aed; }
+.conf-card[data-cat="security"] { border-left-color: #dc2626; }
+.conf-card[data-cat="comm"] { border-left-color: #0891b2; }
+.conf-top { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+.conf-title { min-width: 0; }
+.conf-title h3 { margin: 0; font-size: 1.12em; }
+.conf-title h3 a { color: var(--text); }
+.conf-full { color: var(--text-muted); font-size: .86em; line-height: 1.4; margin-top: 2px; }
+.conf-badges { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex-shrink: 0; }
+.conf-cat, .conf-rank { font-size: .7em; font-weight: 650; padding: 2px 9px; border-radius: 999px; white-space: nowrap; }
+.conf-cat[data-cat="ai"] { background: color-mix(in srgb, #7c3aed 14%, transparent); color: #7c3aed; }
+.conf-cat[data-cat="security"] { background: color-mix(in srgb, #dc2626 13%, transparent); color: #dc2626; }
+.conf-cat[data-cat="comm"] { background: color-mix(in srgb, #0891b2 14%, transparent); color: #0891b2; }
+.conf-rank { border: 1px solid var(--border); color: var(--text-muted); }
+.conf-meta { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .88em; color: var(--text-muted); }
+.conf-deadline { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 10px; background: var(--bg); font-size: .88em; }
+.conf-count { font-weight: 700; font-size: 1.05em; }
+.conf-deadline.soon .conf-count { color: #dc2626; }
+.conf-deadline.near .conf-count { color: #d97706; }
+.conf-deadline.far .conf-count { color: #059669; }
+.conf-deadline.tba .conf-count, .conf-deadline.closed .conf-count { color: var(--text-muted); }
+.conf-note { font-size: .82em; color: var(--text-muted); font-style: italic; }
+.conf-source { margin-top: 2em; }
+:root[data-theme="dark"] .conf-cat[data-cat] { filter: brightness(1.6); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .conf-cat[data-cat] { filter: brightness(1.6); } }
+@media (max-width: 760px) {
+  .conf-grid { grid-template-columns: 1fr; }
+  .conf-search { min-width: 0; width: 100%; }
+}
+
 /* ---------- Timeline ---------- */
 .timeline { position: relative; padding-left: 28px; }
 .timeline::before {
@@ -588,7 +632,7 @@ a.contact-method:hover { background: rgba(255, 255, 255, .2); text-decoration: n
   .grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1180px) {
   .menu-toggle { display: grid; margin-left: auto; }
   .theme-toggle { margin-left: 0; }
   .site-nav {

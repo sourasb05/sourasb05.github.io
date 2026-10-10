@@ -1,0 +1,83 @@
+# Conferences not covered by ccf-deadlines (https://github.com/ccfddl/ccf-deadlines).
+# Maintained by hand — update when a new call for papers is published.
+#
+# Fields (same as ccf-deadlines, plus `category`):
+#   category: ai | security | comm
+#   deadline: 'YYYY-MM-DD HH:MM:SS' in `timezone`, or 'TBA'
+#   note:     optional short remark shown on the page
+
+- title: IoTDI
+  description: ACM/IEEE Conference on Internet of Things Design and Implementation
+  category: security
+  confs:
+    - year: 2027
+      link: https://conferences.computer.org/iotDI/
+      timeline:
+        - deadline: TBA
+      timezone: AoE
+      date: May 2027 (with CPS-IoT Week)
+      place: TBA
+      note: Deadline usually late October
+
+- title: EWSN
+  description: International Conference on Embedded Wireless Systems and Networks
+  category: security
+  confs:
+    - year: 2027
+      link: https://ewsn26.netd.cs.tu-dresden.de/
+      timeline:
+        - deadline: TBA
+      timezone: AoE
+      date: TBA 2027
+      place: TBA
+      note: Two rounds (winter and spring) in recent years
+
+- title: DCOSS-IoT
+  description: International Conference on Distributed Computing in Smart Systems and the Internet of Things
+  category: security
+  confs:
+    - year: 2027
+      link: https://dcoss.org/
+      timeline:
+        - deadline: '2027-01-20 23:59:59'
+      timezone: AoE
+      date: June 2027
+      place: Montreal, Canada
+      note: Date from an aggregator, not yet confirmed on the official site
+
+- title: VTC-Spring
+  description: IEEE Vehicular Technology Conference (Spring)
+  category: comm
+  confs:
+    - year: 2027
+      link: https://events.vtsociety.org/vtc2027-spring/
+      timeline:
+        - deadline: '2026-09-01 23:59:59'
+      timezone: AoE
+      date: June 20-23, 2027
+      place: Hamburg, Germany
+
+- title: EuCNC & 6G Summit
+  description: European Conference on Networks and Communications & 6G Summit
+  category: comm
+  confs:
+    - year: 2027
+      link: https://www.eucnc.eu/
+      timeline:
+        - deadline: TBA
+      timezone: AoE
+      date: June 8-11, 2027
+      place: Dublin, Ireland
+      note: Paper deadline expected mid-January 2027
+
+- title: PIMRC
+  description: IEEE International Symposium on Personal, Indoor and Mobile Radio Communications
+  category: comm
+  confs:
+    - year: 2027
+      link: https://www.comsoc.org/conferences-events/ieee-international-symposium-personal-indoor-and-mobile-radio-communications-2027
+      timeline:
+        - deadline: TBA
+      timezone: AoE
+      date: TBA 2027
+      place: Lisbon, Portugal
