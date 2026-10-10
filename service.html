@@ -7,8 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/css/style.css?v=20261011" />
-<script src="assets/js/main.js?v=20261011"></script>
+<link rel="stylesheet" href="assets/css/style.css?v=20261014" />
+<script src="assets/js/main.js?v=20261014"></script>
+<script src="assets/js/network-bg.js?v=20261014"></script>
 </head>
 <body>
 <header class="site-header">
@@ -31,40 +32,162 @@
 </div>
 </header>
 <main class="content">
-  <div class="page-head">
-    <span class="eyebrow">Community</span>
-    <h1>Professional Service</h1>
-    <p>Peer review, invited talks, and competitive funding.</p>
-  </div>
+  <section class="learn-hero teach-hero" data-network="federated" data-network-tone="light">
+    <span class="eyebrow">Professional Service</span>
+    <h1>Giving back to the research community</h1>
+    <p>Reviewing for leading AI venues, sharing research through invited talks and faculty development programs, and building collaborations through competitive grants and fellowships.</p>
+    <div class="hero-stats">
+      <div><span class="stat-num">12</span><span class="stat-label">Venues reviewed for</span></div>
+      <div><span class="stat-num">10</span><span class="stat-label">Invited talks</span></div>
+      <div><span class="stat-num">4</span><span class="stat-label">Grants &amp; fellowships</span></div>
+    </div>
+  </section>
 
   <h2>Peer Review</h2>
-  <div class="section-card">
-  <p><b>Conferences:</b> NeurIPS, ICML, AAAI, ICLR, AISTATS, ICONIP, IJCNN, ACSS.</p>
-  <p><b>Journals:</b> IEEE TAI, IEEE TCSS, Sensors, MDPI.</p>
-
+  <div class="grid grid-2">
+    <div class="card review-card">
+      <div class="review-head"><div class="ico">🏛</div><div><h3>Conferences</h3><span class="meta">Program committee / reviewer</span></div></div>
+      <div class="venue-badges"><span class="venue-badge">NeurIPS</span><span class="venue-badge">ICML</span><span class="venue-badge">ICLR</span><span class="venue-badge">AAAI</span><span class="venue-badge">AISTATS</span><span class="venue-badge">ICONIP</span><span class="venue-badge">IJCNN</span><span class="venue-badge">ACSS</span></div>
+    </div>
+    <div class="card review-card">
+      <div class="review-head"><div class="ico">📰</div><div><h3>Journals</h3><span class="meta">Reviewer</span></div></div>
+      <div class="venue-badges"><span class="venue-badge">IEEE TAI</span><span class="venue-badge">IEEE TCSS</span><span class="venue-badge">Sensors</span><span class="venue-badge">MDPI</span></div>
+    </div>
   </div>
 
   <h2>Invited Talks</h2>
-  <div class="section-card">
-  <p><b>Industry &amp; Research:</b> Ericsson Research Sweden (2025); NTU Singapore (2023); A*STAR IHPC Singapore (2023, 2024); Scaleout AB Uppsala (2025)</p>
-  <p><b>Faculty Development Programs:</b> SRM University (2025, 2026); NIT Delhi (2025); NIT Warangal (2025); IIIT Gwalior (2025)</p>
-
+  <div class="talk-legend">
+    <span><span class="talk-dot" data-kind="industry"></span>Industry</span>
+    <span><span class="talk-dot" data-kind="research"></span>Research institutes &amp; universities</span>
+    <span><span class="talk-dot" data-kind="fdp"></span>Faculty Development Programs</span>
+  </div>
+  <div class="talk-rows">
+      <div class="card talk-year">
+        <div class="talk-year-head"><span class="talk-year-num">2026</span><span class="meta">1 talk</span></div>
+        <div class="talk-list">
+        <div class="talk">
+          <span class="talk-dot" data-kind="fdp"></span>
+          <div><div class="talk-org">SRM University</div><div class="talk-place">India</div></div>
+          <span class="talk-kind" data-kind="fdp">Faculty Development</span>
+        </div>
+              </div>
+      </div>
+      <div class="card talk-year">
+        <div class="talk-year-head"><span class="talk-year-num">2025</span><span class="meta">6 talks</span></div>
+        <div class="talk-list">
+        <div class="talk">
+          <span class="talk-dot" data-kind="industry"></span>
+          <div><div class="talk-org">Ericsson Research</div><div class="talk-place">Sweden</div></div>
+          <span class="talk-kind" data-kind="industry">Industry</span>
+        </div>
+        <div class="talk">
+          <span class="talk-dot" data-kind="industry"></span>
+          <div><div class="talk-org">Scaleout AB</div><div class="talk-place">Uppsala, Sweden</div></div>
+          <span class="talk-kind" data-kind="industry">Industry</span>
+        </div>
+        <div class="talk">
+          <span class="talk-dot" data-kind="fdp"></span>
+          <div><div class="talk-org">SRM University</div><div class="talk-place">India</div></div>
+          <span class="talk-kind" data-kind="fdp">Faculty Development</span>
+        </div>
+        <div class="talk">
+          <span class="talk-dot" data-kind="fdp"></span>
+          <div><div class="talk-org">NIT Delhi</div><div class="talk-place">India</div></div>
+          <span class="talk-kind" data-kind="fdp">Faculty Development</span>
+        </div>
+        <div class="talk">
+          <span class="talk-dot" data-kind="fdp"></span>
+          <div><div class="talk-org">NIT Warangal</div><div class="talk-place">India</div></div>
+          <span class="talk-kind" data-kind="fdp">Faculty Development</span>
+        </div>
+        <div class="talk">
+          <span class="talk-dot" data-kind="fdp"></span>
+          <div><div class="talk-org">IIIT Gwalior</div><div class="talk-place">India</div></div>
+          <span class="talk-kind" data-kind="fdp">Faculty Development</span>
+        </div>
+              </div>
+      </div>
+      <div class="card talk-year">
+        <div class="talk-year-head"><span class="talk-year-num">2024</span><span class="meta">1 talk</span></div>
+        <div class="talk-list">
+        <div class="talk">
+          <span class="talk-dot" data-kind="research"></span>
+          <div><div class="talk-org">A*STAR IHPC</div><div class="talk-place">Singapore</div></div>
+          <span class="talk-kind" data-kind="research">Research</span>
+        </div>
+              </div>
+      </div>
+      <div class="card talk-year">
+        <div class="talk-year-head"><span class="talk-year-num">2023</span><span class="meta">2 talks</span></div>
+        <div class="talk-list">
+        <div class="talk">
+          <span class="talk-dot" data-kind="research"></span>
+          <div><div class="talk-org">Nanyang Technological University (NTU)</div><div class="talk-place">Singapore</div></div>
+          <span class="talk-kind" data-kind="research">Research</span>
+        </div>
+        <div class="talk">
+          <span class="talk-dot" data-kind="research"></span>
+          <div><div class="talk-org">A*STAR IHPC</div><div class="talk-place">Singapore</div></div>
+          <span class="talk-kind" data-kind="research">Research</span>
+        </div>
+              </div>
+      </div>
   </div>
 
   <h2>Competitive Grants &amp; Funding</h2>
-  <div class="section-card">
-    <div class="funder-row">
-        <a class="card funder" href="https://wasp-sweden.org/" target="_blank" rel="noopener">
-          <img src="assets/img/logos/wasp.svg" alt="WASP — Wallenberg AI, Autonomous Systems and Software Program" />
-        </a>
-        <a class="card funder" href="https://www.vinnova.se/en/" target="_blank" rel="noopener">
-          <img src="assets/img/logos/vinnova.svg" alt="Vinnova — Sweden's Innovation Agency" />
-        </a>
+  <div class="funder-row">
+    <a class="card funder" href="https://wasp-sweden.org/" target="_blank" rel="noopener">
+      <img src="assets/img/logos/wasp.svg" alt="WASP — Wallenberg AI, Autonomous Systems and Software Program" />
+    </a>
+    <a class="card funder" href="https://www.vinnova.se/en/" target="_blank" rel="noopener">
+      <img src="assets/img/logos/vinnova.svg" alt="Vinnova — Sweden's Innovation Agency" />
+    </a>
+  </div>
+  <div class="grid grid-2">
+    <div class="card grant-card">
+      <span class="grant-amount">110,000 SEK</span>
+      <h3>Research Internship Grant</h3>
+      <p>Awarded by the Wallenberg AI, Autonomous Systems and Software Program (WASP) for a research internship at A*STAR IHPC, Singapore.</p>
+      <span class="pill">2024</span>
     </div>
-  <ul>
-    <li><b>Research Internship Grant</b> (110,000 SEK) — A*STAR IHPC, Singapore. Awarded by the Wallenberg AI, Autonomous Systems and Software Program (WASP), 2024.</li>
-    <li><b>Travel Grant</b> ($500 USD) — IEEE World Congress on Computational Intelligence (WCCI), 2022.</li>
-  </ul>
+    <div class="card grant-card">
+      <span class="grant-amount">140,000 SEK</span>
+      <h3>Research Internship Grant</h3>
+      <p>Awarded by the Wallenberg AI, Autonomous Systems and Software Program (WASP) for a research internship at Imperial College London, UK.</p>
+      <span class="pill">2023</span>
+    </div>
+    <div class="card grant-card">
+      <span class="grant-amount">$500 USD</span>
+      <h3>Travel Grant</h3>
+      <p>IEEE World Congress on Computational Intelligence (WCCI).</p>
+      <span class="pill">2022</span>
+    </div>
+    <div class="card grant-card">
+      <span class="grant-amount">Fellowship</span>
+      <h3>GATE Fellowship</h3>
+      <p>Awarded for M.Tech. studies on the basis of the Graduate Aptitude Test in Engineering (GATE), India.</p>
+      <span class="pill">2016</span>
+    </div>
+  </div>
+
+  <h2>Achievements</h2>
+  <div class="grid grid-2">
+    <div class="card achieve-card">
+      <div class="achieve-ico">🏅</div>
+      <div>
+        <h3>Qualified UGC-NET</h3>
+        <p>National Eligibility Test for Assistant Professor, University Grants Commission, India.</p>
+      </div>
+      <span class="pill">2018</span>
+    </div>
+    <div class="card achieve-card">
+      <div class="achieve-ico">🎓</div>
+      <div>
+        <h3>Qualified JEST</h3>
+        <p>Joint Entrance Screening Test, a national screening test for Ph.D. admission in India.</p>
+      </div>
+      <span class="pill">2018</span>
+    </div>
   </div>
 
   <div id="footer">
