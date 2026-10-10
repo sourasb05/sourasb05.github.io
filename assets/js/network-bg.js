@@ -29,6 +29,10 @@
     this.canvas = document.createElement("canvas");
     this.canvas.className = "net-bg";
     this.canvas.setAttribute("aria-hidden", "true");
+    // Position inline so layout never depends on the stylesheet (e.g. a stale cached copy):
+    // an in-flow canvas would grow its host, which would grow the canvas, and so on.
+    this.canvas.style.cssText = "position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;";
+    if (getComputedStyle(host).position === "static") host.style.position = "relative";
     host.insertBefore(this.canvas, host.firstChild);
     this.ctx = this.canvas.getContext("2d");
     this.packets = [];
@@ -67,12 +71,14 @@
   };
 
   NetworkBg.prototype.resize = function () {
-    var r = this.host.getBoundingClientRect();
+    var w = Math.min(this.host.clientWidth, 2400);
+    var h = Math.min(this.host.clientHeight, 1200);
+    if (!w || !h || (w === this.w && h === this.h)) return;
     var dpr = Math.min(window.devicePixelRatio || 1, 2);
-    this.w = r.width;
-    this.h = r.height;
-    this.canvas.width = Math.round(r.width * dpr);
-    this.canvas.height = Math.round(r.height * dpr);
+    this.w = w;
+    this.h = h;
+    this.canvas.width = Math.round(w * dpr);
+    this.canvas.height = Math.round(h * dpr);
     this.ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     this.layout();
   };
@@ -116,6 +122,7 @@
 
   NetworkBg.prototype.startRound = function () {
     var self = this;
+    if (!this.nodes.length) return;
     if (this.mode === "federated") {
       // Pick a few clients, upload to server, aggregate, then broadcast back.
       var picked = this.nodes.slice().sort(function () { return Math.random() - 0.5; })
@@ -161,7 +168,7 @@
   NetworkBg.prototype.tick = function (t) {
     var dt = Math.min(50, t - (this.last || t));
     this.last = t;
-    if (!this.visible || document.hidden) return;
+    if (!this.visible || document.hidden || !this.nodes) return;
 
     var w = this.w, h = this.h;
     this.nodes.forEach(function (n) {
@@ -194,6 +201,7 @@
 
   NetworkBg.prototype.draw = function () {
     var ctx = this.ctx, self = this;
+    if (!this.nodes) return;
     ctx.clearRect(0, 0, this.w, this.h);
     var base = this.light ? 0.22 : 0.16;
 
