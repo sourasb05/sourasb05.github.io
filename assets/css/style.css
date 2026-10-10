@@ -521,7 +521,14 @@ li::marker { color: var(--accent); }
 .thesis-level[data-level="bs"] { background: color-mix(in srgb, #0d9488 14%, transparent); color: #0d9488; }
 .thesis-done { font-size: .8em; font-weight: 600; color: #059669; }
 .thesis-card h3 { margin: 0; font-size: 1.02em; line-height: 1.4; flex: 1; }
-.thesis-student { display: flex; align-items: center; gap: 10px; font-size: .92em; color: var(--text-muted); padding-top: 10px; border-top: 1px dashed var(--border); }
+.thesis-student { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: .92em; color: var(--text-muted); padding-top: 10px; border-top: 1px dashed var(--border); }
+.thesis-link {
+  margin-left: auto; flex-shrink: 0;
+  font-size: .82em; font-weight: 600;
+  padding: 4px 12px; border-radius: 999px;
+  border: 1px solid var(--border); color: var(--accent);
+}
+.thesis-link:hover { text-decoration: none; background: var(--accent-soft); border-color: var(--accent); }
 .avatar {
   display: grid; place-items: center; flex-shrink: 0;
   width: 34px; height: 34px; border-radius: 50%;
