@@ -8,6 +8,7 @@ Personal homepage for Sourasekhar Banerjee, built as plain static HTML/CSS (no b
 - `news.html` — Full news list with category filters
 - `resources.html` — Tools, cheat sheets and tutorials
 - `conferences.html` — Upcoming AI, IoT/security and communications conferences
+- `learn.html` / `post.html` — "Learn Federated Learning with Me" posts (Markdown in `posts/`)
 - `publications.html` — Journal, conference, workshop, book chapter, and patent listings
 - `teaching.html` — Teaching experience, pedagogical training, student supervision
 - `service.html` — Peer review, invited talks, grants & funding
@@ -17,6 +18,13 @@ Personal homepage for Sourasekhar Banerjee, built as plain static HTML/CSS (no b
 - `assets/js/news.js` — **News items — edit this file to add activities** (newest first)
 - `assets/img/profile.png` — Profile photo
 - `assets/doc/Sourasekhar_Banerjee_CV.pdf` — Downloadable CV
+
+## Writing a post (Learn Federated Learning with Me)
+
+1. Create `posts/<slug>.md` in Markdown. LaTeX math works: `$inline$` and `$$display$$`.
+2. Add an entry at the top of `assets/js/posts.js` with `slug`, `title`, `date`, `topic`
+   (`federated-learning`, `continual-learning` or `genai`) and a one-line `summary`.
+3. Preview locally with `python3 -m http.server 8000`, then commit and push.
 
 ## Conference list
 

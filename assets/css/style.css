@@ -97,7 +97,7 @@ li::marker { color: var(--accent); }
   border-bottom: 1px solid var(--border);
 }
 .header-inner {
-  max-width: var(--max-width);
+  max-width: 1240px;
   margin: 0 auto;
   height: var(--header-h);
   padding: 0 24px;
@@ -430,6 +430,67 @@ li::marker { color: var(--accent); }
   .funder img { height: 26px; }
 }
 
+/* ---------- Learn ---------- */
+.learn-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 44px 40px;
+  border-radius: 24px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 90% 10%, rgba(255, 255, 255, .2), transparent 45%),
+    linear-gradient(135deg, #2a3fb8, #3451d1 45%, #0e9f9e);
+  box-shadow: var(--shadow-hover);
+}
+.learn-hero .eyebrow { color: rgba(255, 255, 255, .8); }
+.learn-hero h1 { color: #fff; font-size: 2.6em; }
+.learn-hero p { color: rgba(255, 255, 255, .9); font-size: 1.1em; max-width: 60ch; margin: 0; }
+.topic-card {
+  font: inherit; color: inherit; text-align: left; cursor: pointer;
+  display: flex; flex-direction: column;
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+.topic-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); border-color: color-mix(in srgb, var(--accent) 40%, var(--border)); }
+.topic-card[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow); }
+.topic-card .ico { width: 40px; height: 40px; border-radius: 11px; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); margin-bottom: 12px; font-size: 1.15em; }
+.topic-card h3 { margin: 0 0 .35em; }
+.topic-card p { color: var(--text-muted); font-size: .94em; flex: 1; margin-bottom: .8em; }
+.topic-count { font-size: .8em; font-weight: 650; color: var(--accent); }
+.post-list { display: grid; gap: 14px; }
+.post-card { display: block; color: var(--text); transition: transform .2s, box-shadow .2s, border-color .2s; }
+.post-card:hover { text-decoration: none; transform: translateY(-2px); box-shadow: var(--shadow-hover); border-color: color-mix(in srgb, var(--accent) 40%, var(--border)); }
+.post-card h3 { font-family: var(--font-serif); font-size: 1.35em; font-weight: 600; margin: .35em 0 .3em; }
+.post-card p { color: var(--text-muted); margin-bottom: .6em; }
+.post-read { font-weight: 600; font-size: .92em; color: var(--accent); }
+.post-empty { color: var(--text-muted); text-align: center; }
+.post-meta { display: flex; align-items: center; gap: 10px; font-size: .85em; color: var(--text-muted); }
+.post-topic { font-size: .78em; font-weight: 650; letter-spacing: .04em; text-transform: uppercase; padding: 2px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+.post-topic[data-topic="continual-learning"] { background: color-mix(in srgb, #0d9488 14%, transparent); color: #0d9488; }
+.post-topic[data-topic="genai"] { background: color-mix(in srgb, #7c3aed 14%, transparent); color: #7c3aed; }
+
+/* Single post */
+.post { max-width: 760px; margin: 0 auto; }
+.post-back { font-size: .9em; font-weight: 600; }
+.post-back-bottom { display: inline-block; margin-top: 2.5em; }
+.post-header { margin: 1.4em 0 1.8em; padding-bottom: 1.2em; border-bottom: 1px solid var(--border); }
+.post-header h1 { margin-top: .4em; }
+.prose { font-size: 1.06em; line-height: 1.75; }
+.prose h2 { font-size: 1.45em; margin: 1.8em 0 .6em; }
+.prose h3 { font-size: 1.15em; }
+.prose p, .prose ul, .prose ol { margin-bottom: 1.1em; }
+.prose code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .88em; background: var(--accent-soft); padding: 2px 6px; border-radius: 5px; }
+.prose pre { background: #0f172a; color: #e2e8f0; padding: 16px 18px; border-radius: 12px; overflow-x: auto; line-height: 1.55; }
+.prose pre code { background: none; padding: 0; color: inherit; font-size: .86em; }
+.prose blockquote { margin: 1.2em 0; padding: .4em 1.2em; border-left: 4px solid var(--accent); background: var(--accent-soft); border-radius: 0 10px 10px 0; color: var(--text); }
+.prose img { max-width: 100%; border-radius: 12px; }
+.prose table { border-collapse: collapse; width: 100%; font-size: .94em; }
+.prose th, .prose td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; }
+.prose .katex-display { overflow-x: auto; overflow-y: hidden; padding: 6px 0; }
+@media (max-width: 680px) {
+  .learn-hero { padding: 30px 22px; }
+  .learn-hero h1 { font-size: 1.9em; }
+}
+
 /* ---------- Timeline ---------- */
 .timeline { position: relative; padding-left: 28px; }
 .timeline::before {
@@ -653,7 +714,7 @@ a.contact-method:hover { background: rgba(255, 255, 255, .2); text-decoration: n
   .grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1260px) {
   .menu-toggle { display: grid; margin-left: auto; }
   .theme-toggle { margin-left: 0; }
   .site-nav {

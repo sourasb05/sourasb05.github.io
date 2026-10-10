@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Learn Federated Learning with Me — Sourasekhar Banerjee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<script src="assets/js/main.js"></script>
+<script src="assets/js/posts.js"></script>
+<script src="assets/js/learn.js"></script>
+</head>
+<body>
+<header class="site-header">
+<div class="header-inner">
+  <a class="brand" href="index.html"><span class="brand-mark">SB</span><span>Sourasekhar Banerjee</span></a>
+  <button class="icon-btn menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="publications.html">Publications</a>
+    <a href="service.html">Service</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="learn.html" class="current">Learn</a>
+    <a href="resources.html">Resources</a>
+    <a href="conferences.html">Conferences</a>
+    <a href="contact.html">Contact</a>
+    <a class="nav-cv" href="assets/doc/Sourasekhar_Banerjee_CV.pdf" target="_blank" rel="noopener">CV ↓</a>
+  </nav>
+  <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">☾</button>
+</div>
+</header>
+
+<main class="content">
+  <section class="learn-hero">
+    <span class="eyebrow">Learning series</span>
+    <h1>Learn Federated Learning with Me</h1>
+    <p>
+      Friendly, hands-on explanations of federated learning, continual learning and the latest GenAI research,
+      from the core ideas and the math behind them to code you can run.
+    </p>
+  </section>
+
+  <h2>Topics</h2>
+  <div class="grid grid-3">
+    <button class="card topic-card" data-topic-filter="federated-learning" aria-pressed="false">
+      <div class="ico">🌐</div>
+      <h3>Federated Learning</h3>
+      <p>Training models across many devices or institutions without sharing raw data: FedAvg, personalization, heterogeneity and privacy.</p>
+      <span class="topic-count" data-topic-count="federated-learning"></span>
+    </button>
+    <button class="card topic-card" data-topic-filter="continual-learning" aria-pressed="false">
+      <div class="ico">↻</div>
+      <h3>Continual Learning</h3>
+      <p>Models that keep learning as data changes, without forgetting the past, and how this combines with federated learning.</p>
+      <span class="topic-count" data-topic-count="continual-learning"></span>
+    </button>
+    <button class="card topic-card" data-topic-filter="genai" aria-pressed="false">
+      <div class="ico">✨</div>
+      <h3>GenAI Paper Notes</h3>
+      <p>Short, readable summaries of recent publications on generative AI and large language models, and what they mean in practice.</p>
+      <span class="topic-count" data-topic-count="genai"></span>
+    </button>
+  </div>
+
+  <h2 id="posts">Latest posts</h2>
+  <div class="post-list" id="post-list"></div>
+
+  <div id="footer">
+    &copy; 2026 Sourasekhar Banerjee. Hosted on GitHub Pages.
+  </div>
+</main>
+</body>
+</html>
