@@ -286,6 +286,15 @@ li::marker { color: var(--accent); }
 }
 .interest h3 { margin: 0 0 .35em; }
 .interest p { margin: 0; color: var(--text-muted); font-size: .94em; }
+.rtabs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: .6em; }
+.rtab { font-size: .82em; font-weight: 500; padding: 5px 10px; border-radius: 6px; border: 1px solid var(--border); background: var(--bg); color: var(--text); }
+.rtab.link { font-weight: 600; color: var(--accent); background: var(--accent-soft); border-color: color-mix(in srgb, var(--accent) 30%, var(--border)); transition: background .15s, color .15s; }
+.rtab.link:hover { text-decoration: none; background: var(--accent); border-color: var(--accent); color: #fff; }
+.featured { display: flex; flex-direction: column; color: var(--text); }
+.featured:hover { text-decoration: none; }
+.featured .feat-label { font-size: .75em; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin-bottom: .6em; }
+.featured p { flex: 1; }
+.featured .feat-cta { margin-top: 1em; font-weight: 600; font-size: .9em; color: var(--accent); }
 
 /* ---------- About ---------- */
 .about { border-left: 4px solid var(--accent); padding: 24px 28px; }
@@ -677,6 +686,11 @@ li::marker { color: var(--accent); }
 .pub-btn { font-size: .82em; font-weight: 600; padding: 5px 13px; border-radius: 999px; border: 1px solid var(--border); color: var(--accent); background: var(--surface); }
 .pub-btn:hover { text-decoration: none; background: var(--accent-soft); border-color: var(--accent); }
 .pub-btn.code { color: var(--text); }
+button.pub-btn { font-family: inherit; cursor: pointer; }
+.pub-card:target { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow-hover); }
+.bib-panel { position: relative; margin-top: 12px; }
+.bib-panel pre { margin: 0; padding: 14px 16px; padding-right: 90px; background: var(--accent-soft); border: 1px solid var(--border); border-radius: 10px; font-size: .78em; line-height: 1.5; overflow-x: auto; white-space: pre; color: var(--text); }
+.bib-panel .bib-copy { position: absolute; top: 8px; right: 8px; }
 .pub-empty { text-align: center; margin: 2em 0; }
 
 /* ---------- News page timeline ---------- */
