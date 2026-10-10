@@ -409,6 +409,24 @@ li::marker { color: var(--accent); }
   .conf-search { min-width: 0; width: 100%; }
 }
 
+/* ---------- Funders ---------- */
+.funder-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: .4em 0 1em; }
+.funder {
+  display: grid;
+  place-items: center;
+  height: 110px;
+  padding: 18px 28px;
+  background: #fff;
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+.funder:hover { text-decoration: none; transform: translateY(-3px); box-shadow: var(--shadow-hover); border-color: var(--accent); }
+.funder img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.section-card .funder { box-shadow: none; height: 90px; }
+@media (max-width: 680px) {
+  .funder-row { grid-template-columns: 1fr; }
+  .funder { height: 90px; }
+}
+
 /* ---------- Timeline ---------- */
 .timeline { position: relative; padding-left: 28px; }
 .timeline::before {
