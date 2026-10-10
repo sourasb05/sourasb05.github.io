@@ -220,6 +220,9 @@ li::marker { color: var(--accent); }
   pointer-events: none;
 }
 .hero > * { position: relative; z-index: 1; }
+.net-bg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.hero > .net-bg, .learn-hero > .net-bg { position: absolute; z-index: 0; }
+.learn-hero > * { position: relative; z-index: 1; }
 .hero-photo img {
   width: 220px;
   height: 220px;
