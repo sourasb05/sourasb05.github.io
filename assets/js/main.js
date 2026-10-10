@@ -112,6 +112,22 @@
 
     renderNews();
 
+    // Visitor counter (abacus.jasoncameron.dev): each browser is counted once.
+    var counter = document.getElementById("visitor-count");
+    if (counter && window.fetch) {
+      var seen = false;
+      try { seen = localStorage.getItem("visited") === "1"; } catch (e) {}
+      fetch("https://abacus.jasoncameron.dev/" + (seen ? "get" : "hit") + "/sourasb05.github.io/visitors")
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          if (typeof d.value !== "number") return;
+          try { localStorage.setItem("visited", "1"); } catch (e) {}
+          counter.querySelector("span").textContent = d.value.toLocaleString();
+          counter.hidden = false;
+        })
+        .catch(function () {});
+    }
+
     // Fade sections in as they scroll into view.
     var els = document.querySelectorAll(".reveal");
     if ("IntersectionObserver" in window) {
