@@ -7,8 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/css/style.css?v=20261010" />
-<script src="assets/js/main.js?v=20261010"></script>
+<link rel="stylesheet" href="assets/css/style.css?v=20261011" />
+<script src="assets/js/main.js?v=20261011"></script>
+<script src="assets/js/network-bg.js?v=20261011"></script>
 </head>
 <body>
 <header class="site-header">
@@ -31,53 +32,107 @@
 </div>
 </header>
 <main class="content">
-  <div class="page-head">
-    <span class="eyebrow">Teaching</span>
-    <h1>Teaching &amp; Supervision</h1>
-    <p>Courses I have taught, pedagogical training, and the students I have supervised.</p>
+  <section class="learn-hero teach-hero" data-network="decentralized" data-network-tone="light">
+    <span class="eyebrow">Teaching &amp; Supervision</span>
+    <h1>Helping students learn by doing</h1>
+    <p>I teach machine learning and computer systems, and supervise thesis projects on federated learning and IoT security, turning research questions into hands-on student work.</p>
+    <div class="hero-stats">
+      <div><span class="stat-num">2</span><span class="stat-label">Courses taught</span></div>
+      <div><span class="stat-num">5</span><span class="stat-label">Theses supervised</span></div>
+      <div><span class="stat-num">2022</span><span class="stat-label">Teaching since</span></div>
+    </div>
+  </section>
+
+  <h2>Courses</h2>
+  <div class="grid grid-2">
+    <div class="card course-card">
+      <div class="course-head">
+        <a class="logo-tile" href="https://www.uu.se/" target="_blank" rel="noopener"><img src="assets/img/logos/uppsala-university.svg" alt="Uppsala University" /></a>
+        <div>
+          <span class="pill">Teacher</span>
+          <div class="course-when">Jan&ndash;Mar 2025 &middot; Jan&ndash;Mar 2026</div>
+        </div>
+      </div>
+      <h3>Information Technology and Energy Storage</h3>
+      <p>Lectures, tutorials and assignments on the foundations of machine learning and data-driven methods for battery management systems.</p>
+      <div class="chips xp-topics"><span class="chip">Machine Learning</span><span class="chip">Battery Management</span><span class="chip">Data-driven Modelling</span></div>
+      <a class="btn btn-primary course-btn" href="https://github.com/sourasb05/1DT11561204-2026.git" target="_blank" rel="noopener">Course materials ↗</a>
+    </div>
+    <div class="card course-card">
+      <div class="course-head">
+        <a class="logo-tile" href="https://www.umu.se/en/" target="_blank" rel="noopener"><img src="assets/img/logos/umea-university.svg" alt="Umeå University" /></a>
+        <div>
+          <span class="pill">Teaching Assistant</span>
+          <div class="course-when">Jan&ndash;Mar 2022 &middot; Jan&ndash;Mar 2023</div>
+        </div>
+      </div>
+      <h3>Operating Systems</h3>
+      <p>Tutorials and lab sessions on core operating-system concepts, from processes and scheduling to memory and kernel programming.</p>
+      <div class="chips xp-topics"><span class="chip">Process Management</span><span class="chip">Scheduling</span><span class="chip">Memory</span><span class="chip">Kernel Programming</span></div>
+    </div>
   </div>
 
-  <h2>Pedagogical Training</h2>
-  <div class="entry">
-    <b>Academic Teacher Training Course</b> — Unit for Academic Teaching and Learning, Uppsala University, Sweden
-    <div class="meta">Autumn 2025</div>
-    <ul>
-      <li>Completed a university-level teacher training course covering curriculum design, constructive alignment, formative and summative assessment, inclusive teaching strategies, research-based teaching, and digital learning environments.</li>
-      <li>Project: &ldquo;Responsible Integration of LLMs in Higher Education&rdquo;</li>
-    </ul>
+  <h2>Supervised Theses</h2>
+  <div class="thesis-grid">
+      <div class="card thesis-card">
+        <div class="thesis-top">
+          <span class="thesis-level" data-level="ms">Master's thesis</span>
+          <span class="thesis-done">✓ Completed 2026</span>
+        </div>
+        <h3>Machine Learning for Cybersecurity in Internet of Things Networks</h3>
+        <div class="thesis-student"><span class="avatar">YS</span><span>Yichang Sun</span></div>
+      </div>
+      <div class="card thesis-card">
+        <div class="thesis-top">
+          <span class="thesis-level" data-level="bs">Bachelor's thesis</span>
+          <span class="thesis-done">✓ Completed 2026</span>
+        </div>
+        <h3>Benchmarking Federated Learning Algorithms for Intrusion Detection in RPL-IoT Networks</h3>
+        <div class="thesis-student"><span class="avatar">RF</span><span>Robin Forslund</span></div>
+      </div>
+      <div class="card thesis-card">
+        <div class="thesis-top">
+          <span class="thesis-level" data-level="bs">Bachelor's thesis</span>
+          <span class="thesis-done">✓ Completed 2026</span>
+        </div>
+        <h3>An Investigation into Intrusion Detection System Generalisation Against Novel Attacks</h3>
+        <div class="thesis-student"><span class="avatar">MD</span><span>Max Dahlgren</span></div>
+      </div>
+      <div class="card thesis-card">
+        <div class="thesis-top">
+          <span class="thesis-level" data-level="bs">Bachelor's thesis</span>
+          <span class="thesis-done">✓ Completed 2025</span>
+        </div>
+        <h3>Intrusion Detection System Generalisation in IoT Blackhole Attacks</h3>
+        <div class="thesis-student"><span class="avatar">ON</span><span>Oskar Nylin</span></div>
+      </div>
+      <div class="card thesis-card">
+        <div class="thesis-top">
+          <span class="thesis-level" data-level="bs">Bachelor's thesis</span>
+          <span class="thesis-done">✓ Completed 2025</span>
+        </div>
+        <h3>Assessing the Generalizability and Scalability of an IoT Intrusion Detection System against DIS-Flooding Attack Variants</h3>
+        <div class="thesis-student"><span class="avatar">HM</span><span>Hans-Eskil Ytterfelt Martinsson</span></div>
+      </div>
   </div>
 
-  <h2>Teaching Experience</h2>
-  <div class="entry">
-    <b>Teacher</b> — Department of Information Technology, Uppsala University, Sweden
-    <div class="meta">Period III: Jan&ndash;Mar 2025, Jan&ndash;Mar 2026</div>
-    <ul>
-      <li><b>Information Technology and Energy Storage</b> &mdash; <a href="https://github.com/sourasb05/1DT11561204-2026.git" target="_blank" rel="noopener">course materials on GitHub ↗</a></li>
-      <li>Delivered lectures, tutorials, and assignments covering theoretical foundations of machine learning and data-driven applications in battery management systems.</li>
-    </ul>
-  </div>
-  <div class="entry">
-    <b>Teaching Assistant</b> — Department of Computing Science, Umeå University, Sweden
-    <div class="meta">Period III: Jan&ndash;Mar 2022, Jan&ndash;Mar 2023</div>
-    <ul>
-      <li>Operating Systems (2022, 2023).</li>
-      <li>Delivered tutorials and lab sessions reinforcing core OS concepts including process management, memory allocation, scheduling, and kernel programming.</li>
-    </ul>
-  </div>
-
-  <h2>Student Supervision</h2>
-  <div class="section-card">
-  <h3>Master's Thesis</h3>
-  <ul>
-    <li>&ldquo;Machine Learning for Cybersecurity in Internet of Things Networks.&rdquo; — Yichang Sun [2026] <i>(Completed)</i></li>
-  </ul>
-  <h3>Bachelor's Thesis</h3>
-  <ul>
-    <li>&ldquo;Benchmarking Federated Learning Algorithms for Intrusion Detection in RPL-IoT networks&rdquo; — Robin Forslund [2026] <i>(Completed)</i></li>
-    <li>&ldquo;An Investigation into Intrusion Detection System Generalisation Against Novel Attacks&rdquo; — Max Dahlgren [2026] <i>(Completed)</i></li>
-    <li>&ldquo;Intrusion Detection System Generalisation in IoT Blackhole Attacks&rdquo; — Oskar Nylin [2025] <i>(Completed)</i></li>
-    <li>&ldquo;Assessing the Generalizability and Scalability of an IoT Intrusion Detection System against DIS-Flooding Attack Variants&rdquo; — Hans-Eskil Ytterfelt Martinsson [2025] <i>(Completed)</i></li>
-  </ul>
+  <h2>Teacher Training</h2>
+  <div class="card training-card">
+    <div class="course-head">
+      <a class="logo-tile" href="https://www.uu.se/" target="_blank" rel="noopener"><img src="assets/img/logos/uppsala-university.svg" alt="Uppsala University" /></a>
+      <div>
+        <h3 style="margin:0">Academic Teacher Training Course</h3>
+        <div class="course-when">Unit for Academic Teaching and Learning, Uppsala University &middot; Autumn 2025</div>
+      </div>
+    </div>
+    <div class="chips xp-topics">
+      <span class="chip">Curriculum Design</span><span class="chip">Constructive Alignment</span><span class="chip">Formative &amp; Summative Assessment</span>
+      <span class="chip">Inclusive Teaching</span><span class="chip">Research-based Teaching</span><span class="chip">Digital Learning</span>
+    </div>
+    <div class="training-project">
+      <span class="eyebrow">Course project</span>
+      <p>&ldquo;Responsible Integration of LLMs in Higher Education&rdquo;</p>
+    </div>
   </div>
 
   <div id="footer">
