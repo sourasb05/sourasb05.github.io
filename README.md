@@ -36,6 +36,23 @@ Personal homepage for Sourasekhar Banerjee, built as plain static HTML/CSS (no b
 - To add or remove a conference from ccf-deadlines, edit `SELECTED` in `scripts/update_conferences.py`.
 - Conferences not in ccf-deadlines (e.g. IoTDI, EWSN, EuCNC) live in `data/conferences_extra.yml`.
 
+## Special issues and journals
+
+The **Special issues** and **Journals** tabs on `conferences.html` use two data files:
+
+- `assets/js/special_issues.js` is generated every Monday by `scripts/update_special_issues.py` (same GitHub Action
+  as the conferences). It reads the call-for-papers pages of IEEE Internet of Things Journal, IEEE ComSoc journals and
+  magazines, and Springer's *Discover Artificial Intelligence* and *Machine Learning*, and keeps calls whose title
+  matches the topic keywords at the top of the script. Edit `SOURCES`, `CORE`/`BROAD` or `EXCLUDE` there to change
+  what is tracked. To refresh locally: `python3 scripts/update_special_issues.py`.
+- `assets/js/journals.js` is edited by hand: the recommended journals, plus any special issue from a publisher the
+  script cannot read (e.g. Elsevier). Special issues disappear from the page once their deadline passes.
+  Journal metrics change every June: update `impact` (JCR impact factor, from the journal's site) and `quartile`
+  (best SCImago quartile), then change `updated` at the top of the file.
+
+The "Look up any journal" box queries the free [OpenAlex](https://openalex.org/) API from the visitor's browser
+(about 1,000 lookups per visitor per day).
+
 ## Local preview
 
 ```sh

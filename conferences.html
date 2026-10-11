@@ -15,11 +15,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/css/style.css?v=20261018" />
+<link rel="stylesheet" href="assets/css/style.css?v=20261022" />
 <script src="assets/js/main.js?v=20261017"></script>
 <script src="assets/js/network-bg.js?v=20261016"></script>
 <script src="assets/js/conferences.js?v=20261016"></script>
 <script src="assets/js/conferences-view.js?v=20261016"></script>
+<script src="assets/js/journals.js?v=20261022"></script>
+<script src="assets/js/special_issues.js"></script>
+<script src="assets/js/journals-view.js?v=20261022"></script>
 </head>
 <body>
 <header class="site-header">
@@ -45,21 +48,28 @@
 <main class="content">
   <section class="learn-hero teach-hero" data-network="federated" data-network-tone="light">
     <span class="eyebrow">Calls for papers</span>
-    <h1>Upcoming Conferences</h1>
-    <p>Upcoming conferences in AI &amp; machine learning, IoT &amp; cyber security, and communications &amp; networking, sorted by submission deadline and shown in your local time.</p>
+    <h1>Conferences &amp; Journals</h1>
+    <p>Upcoming conferences, open journal special issues and recommended journals in AI &amp; machine learning, IoT &amp; cyber security, and communications &amp; networking.</p>
     <div class="hero-stats">
-      <div><span class="stat-num" id="conf-stat-open">&nbsp;</span><span class="stat-label">Open calls</span></div>
-      <div><span class="stat-num" id="conf-stat-soon">&nbsp;</span><span class="stat-label">Deadlines in 30 days</span></div>
-      <div><span class="stat-num" id="conf-stat-total">&nbsp;</span><span class="stat-label">Upcoming events</span></div>
+      <div><span class="stat-num" id="conf-stat-open">&nbsp;</span><span class="stat-label">Open conference calls</span></div>
+      <div><span class="stat-num" id="si-stat-open">&nbsp;</span><span class="stat-label">Open special issues</span></div>
+      <div><span class="stat-num" id="jr-stat-total">&nbsp;</span><span class="stat-label">Journals tracked</span></div>
     </div>
   </section>
 
+
+  <div class="cfp-tabs" role="tablist" aria-label="Calls for papers">
+    <button class="cfp-tab" role="tab" data-tab="conferences" aria-selected="true">Conferences</button>
+    <button class="cfp-tab" role="tab" data-tab="special-issues" aria-selected="false">Special issues</button>
+    <button class="cfp-tab" role="tab" data-tab="journals" aria-selected="false">Journals</button>
+  </div>
 
   <div class="conf-toolbar pub-toolbar">
     <div class="news-filters" id="conf-filters"></div>
     <input id="conf-search" class="conf-search" type="search" placeholder="Search conference or city…" aria-label="Search conferences" />
   </div>
 
+  <div class="cfp-panel" data-panel="conferences">
   <h2>Open for submissions <span class="count-pill" id="conf-open-count"></span></h2>
   <div class="conf-grid" id="conf-open"></div>
 
@@ -71,6 +81,41 @@
     <a href="https://github.com/ccfddl/ccf-deadlines" target="_blank" rel="noopener">ccf-deadlines</a> list, plus a few hand-checked entries.
     Always confirm dates on the official conference website.
   </p>
+  </div>
+
+  <div class="cfp-panel" data-panel="special-issues" hidden>
+    <h2>Open special issues <span class="count-pill" id="si-count"></span></h2>
+    <div class="conf-grid" id="si-list"></div>
+    <p class="meta conf-source">
+      Calls on federated learning, edge AI, IoT and security, collected every week from IEEE Internet of Things Journal,
+      IEEE ComSoc and Springer journals (last updated <b id="si-updated"></b>). Calls disappear automatically after their deadline.
+      Always confirm details in the official call for papers.
+    </p>
+  </div>
+
+  <div class="cfp-panel" data-panel="journals" hidden>
+    <div class="card jr-lookup">
+      <h3>Look up any journal</h3>
+      <p class="meta">Search about 200,000 journals in the open <a href="https://openalex.org/" target="_blank" rel="noopener">OpenAlex</a> database. For the official impact factor and quartile, follow the Web of Science and SCImago links on each result.</p>
+      <form id="jr-lookup-form" class="jr-lookup-form" role="search">
+        <input id="jr-lookup-q" class="conf-search" type="search" placeholder="Journal name or ISSN, e.g. Pattern Recognition" aria-label="Journal name or ISSN" />
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+      <div id="jr-lookup-results" aria-live="polite"></div>
+    </div>
+
+    <h2>Recommended journals <span class="count-pill" id="jr-count"></span></h2>
+    <div class="jr-legend">
+      <span><b>IF</b> Journal Impact Factor, JCR 2026 release (2025 data)</span>
+      <span><b>Q1&ndash;Q4</b> best SCImago (SJR 2025) quartile</span>
+      <span><b>SCIE</b> Web of Science Science Citation Index Expanded</span>
+    </div>
+    <div class="jr-grid" id="jr-list"></div>
+    <p class="meta conf-source">
+      Impact factors as published on each journal&rsquo;s site; quartiles from <a href="https://www.scimagojr.com/" target="_blank" rel="noopener">SCImago</a>.
+      Checked on <b class="jr-updated"></b>. Metrics change every June, so confirm on the journal&rsquo;s page before relying on them.
+    </p>
+  </div>
 
   <div id="footer">
     &copy; 2026 Sourasekhar Banerjee. Hosted on GitHub Pages.
