@@ -32,53 +32,11 @@ window.SPECIAL_ISSUES = {
    "link": "https://ieee-iotj.org/wp-content/uploads/2026/06/Graph_Representation_Learning.pdf"
   },
   {
-   "title": "Federated Foundation Models for Integrated Sensing and Communication",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2026-11-30",
-   "category": "comm",
-   "link": "https://link.springer.com/collections/bdjadccbhi"
-  },
-  {
-   "title": "Edge Intelligence for Perception and Interaction: Distributed Sensing, Collaborative AI and Adaptive Decision-Making",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2026-12-10",
-   "category": "comm",
-   "link": "https://link.springer.com/collections/headejjaje"
-  },
-  {
-   "title": "AI-Driven Intelligent IoT Systems for Health, Well-Being, and Social Good",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2026-12-13",
-   "category": "ai",
-   "link": "https://link.springer.com/collections/iefgacffja"
-  },
-  {
    "title": "AI Agent Enabled Small-Large Model Collaboration for Internet of Things",
    "journal": "IEEE Internet of Things Journal",
    "deadline": "2026-12-15",
    "category": "ai",
    "link": "https://ieee-iotj.org/wp-content/uploads/2026/07/AI_Agent_Enabled.pdf"
-  },
-  {
-   "title": "Trustworthy and Responsible Federated Learning",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2026-12-15",
-   "category": "security",
-   "link": "https://link.springer.com/collections/fdcjaidaif"
-  },
-  {
-   "title": "AI-Driven Smart Cities and Secure Intelligent Infrastructure",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2026-12-25",
-   "category": "security",
-   "link": "https://link.springer.com/collections/icdifecfcf"
-  },
-  {
-   "title": "Parallel and Distributed Paradigms of Next-Generation Artificial Intelligence",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2026-12-25",
-   "category": "ai",
-   "link": "https://link.springer.com/collections/jeffahfehd"
   },
   {
    "title": "Distributed Intelligence and Collaborative Inference for Foundation Models over Wireless Edge",
@@ -100,20 +58,6 @@ window.SPECIAL_ISSUES = {
    "deadline": "2027-01-31",
    "category": "comm",
    "link": "https://ieee-iotj.org/wp-content/uploads/2026/08/Embodied_Active_Sensing.pdf"
-  },
-  {
-   "title": "AI Driven Cybersecurity for Sustainable Cyber Physical Systems",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2027-01-31",
-   "category": "security",
-   "link": "https://link.springer.com/collections/afcecgahfc"
-  },
-  {
-   "title": "AI-Driven Secure Networking for Multimedia Applications",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2027-01-31",
-   "category": "security",
-   "link": "https://link.springer.com/collections/ffidgagadh"
   },
   {
    "title": "Ambient Intelligence for AI-Native IoT: Invisible, Context-Aware, and Autonomous Experiences",
@@ -156,41 +100,6 @@ window.SPECIAL_ISSUES = {
    "deadline": "2027-03-31",
    "category": "comm",
    "link": "https://ieee-iotj.org/wp-content/uploads/2026/09/Industrial_Internet_Things.pdf"
-  },
-  {
-   "title": "Lightweight Deep Learning-Based Secure and Intelligent IoT for Sustainable Healthcare",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2027-03-31",
-   "category": "security",
-   "link": "https://link.springer.com/collections/agigeiiahi"
-  },
-  {
-   "title": "Security of AI Systems in the Era of Generative and Agentic AI",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2027-04-20",
-   "category": "security",
-   "link": "https://link.springer.com/collections/hdjfhjhhdg"
-  },
-  {
-   "title": "Efficient TinyAI and Lightweight Foundation Models for Distributed Data Intelligence",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2027-05-31",
-   "category": "ai",
-   "link": "https://link.springer.com/collections/beaccgdcje"
-  },
-  {
-   "title": "Artificial Intelligence-Driven Next-Generation IoT Networks: Design, Optimization, and Potential Applications",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2027-06-28",
-   "category": "comm",
-   "link": "https://link.springer.com/collections/bibefcjfii"
-  },
-  {
-   "title": "Hybrid AI for Cybersecurity: Trustworthy, Multimodal, and Knowledge-Aware Intelligent Defense",
-   "journal": "Discover Artificial Intelligence (Springer)",
-   "deadline": "2027-06-30",
-   "category": "security",
-   "link": "https://link.springer.com/collections/ggdegigeba"
   }
  ]
 };
