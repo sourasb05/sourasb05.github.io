@@ -11,6 +11,12 @@
  */
 window.NEWS = [
   {
+    date: "2026-11",
+    tag: "talk",
+    text: "Invited speaker at the online Faculty Development Programme &ldquo;<b>Next-Generation Model Optimisation: Enabling Efficient Edge Intelligence in Networked Environments</b>,&rdquo; organised by the Department of Computer Science &amp; Engineering, <b>SRM University-AP</b> (Nov 2&ndash;6, 2026). Registration open until Oct 20, 2026.",
+    links: [{ label: "Register", url: "https://forms.gle/eZdnE1rpw5X4a5VX6" }]
+  },
+  {
     date: "2026",
     tag: "career",
     text: "Started as <b>Application Expert</b> at <a href=\"https://swedenaifactory.se/\" target=\"_blank\" rel=\"noopener\">Sweden AI Factory</a>, NAISS &mdash; organizing training, consultancy and automation for AI users."
@@ -59,7 +65,8 @@ window.NEWS = [
   {
     date: "2024",
     tag: "career",
-    text: "Defended my Ph.D. thesis &ldquo;Advancing Federated Learning: Algorithms and Use-Cases&rdquo; at Umeå University."
+    text: "Defended my Ph.D. thesis &ldquo;Advancing Federated Learning: Algorithms and Use-Cases&rdquo; at Umeå University.",
+    links: [{ label: "Thesis", url: "https://webapps.cs.umu.se/uminf/reports/2024/009/part1.pdf" }]
   },
   {
     date: "2024-04",
