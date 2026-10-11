@@ -51,7 +51,11 @@ The **Special issues** and **Journals** tabs on `conferences.html` use two data 
   (best SCImago quartile), then change `updated` at the top of the file.
 
 The "Look up any journal" box queries the free [OpenAlex](https://openalex.org/) API from the visitor's browser
-(about 1,000 lookups per visitor per day).
+(about 1,000 lookups per visitor per day) and adds each journal's SCImago quartile from `assets/data/sjr.json`.
+Refresh that file once a year (SCImago publishes new rankings around April/May; it blocks scripts, so use a browser):
+
+1. On https://www.scimagojr.com/journalrank.php click **Download data** and save the file as `data/scimagojr.csv`.
+2. Run `python3 scripts/build_sjr_lookup.py`, then commit `assets/data/sjr.json` (the CSV itself stays out of git).
 
 ## Local preview
 

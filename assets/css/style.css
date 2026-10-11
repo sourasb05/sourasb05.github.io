@@ -448,6 +448,9 @@ li::marker { color: var(--accent); }
 .jr-hit-stats b { display: block; font-size: 1.1em; }
 .jr-hit-stats span { font-size: .72em; color: var(--text-muted); }
 .jr-hit-note { margin: .6em 0 0; font-size: .82em; }
+.jr-hit-stats b .jr-q { display: inline-block; font-size: .78em; line-height: 1.5; padding: 0 10px; color: #fff; }
+.jr-na { color: var(--text-muted); font-weight: 600; }
+.jr-hit-stats > div { min-width: 58px; }
 @media (max-width: 560px) {
   .jr-hit { flex-direction: column; gap: 6px; }
   .jr-hit-stats { text-align: left; }

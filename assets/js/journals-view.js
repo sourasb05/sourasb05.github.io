@@ -147,20 +147,47 @@ document.addEventListener("DOMContentLoaded", function () {
       links.push('<a href="https://www.scimagojr.com/journalsearch.php?q=' + encodeURIComponent(issn) + '" target="_blank" rel="noopener">SCImago ↗</a>');
     }
     if (r.homepage_url) links.push('<a href="' + esc(r.homepage_url) + '" target="_blank" rel="noopener">Homepage ↗</a>');
+    // Quartile from the SCImago lookup, matched on any of the journal's ISSNs.
+    var rank = null;
+    if (sjr) {
+      (r.issn || [issn]).concat(issn).some(function (i) {
+        var k = sjr.issn[String(i || "").replace("-", "").toUpperCase()];
+        if (k != null) rank = sjr.j[k];
+        return k != null;
+      });
+    }
+    var q = rank ? "Q" + rank[0] : mine ? mine.quartile : "";
+    var impact = mine && mine.impact != null
+      ? '<div><b>' + mine.impact.toFixed(1) + "</b><span>impact factor</span></div>"
+      : '<div title="Official impact factors are published only in Clarivate\'s subscription Journal Citation Reports. Use the Web of Science link to check."><b class="jr-na">n/a</b><span>impact factor</span></div>';
+    var quart = q
+      ? '<div><b><span class="jr-q" data-q="' + q + '">' + q + "</span></b><span>" +
+        (rank && rank[1] != null ? "SJR " + rank[1].toFixed(2) : "SCImago") + "</span></div>"
+      : '<div title="' + (sjr ? "Not ranked by SCImago (not indexed in Scopus)" : "Quartile data unavailable") +
+        '"><b class="jr-na">&mdash;</b><span>quartile</span></div>';
     return '<div class="jr-hit">' +
       '<div class="jr-hit-main">' +
-        "<h4>" + esc(r.display_name) +
-          (mine ? ' <span class="jr-q" data-q="' + esc(mine.quartile) + '">' + esc(mine.quartile) + "</span>" +
-            (mine.impact != null ? ' <span class="jr-idx">IF ' + mine.impact.toFixed(1) + "</span>" : "") : "") +
-        "</h4>" +
+        "<h4>" + esc(r.display_name) + (mine ? ' <span class="jr-idx">Recommended</span>' : "") + "</h4>" +
         '<div class="meta">' + meta + "</div>" +
         '<div class="jr-hit-links">' + links.join("") + "</div>" +
       "</div>" +
-      '<div class="jr-hit-stats">' +
-        '<div><b>' + (stats["2yr_mean_citedness"] != null ? stats["2yr_mean_citedness"].toFixed(1) : "&mdash;") + "</b><span>cites / paper (2 yr)</span></div>" +
+      '<div class="jr-hit-stats">' + impact + quart +
+        '<div><b>' + (stats["2yr_mean_citedness"] != null ? stats["2yr_mean_citedness"].toFixed(1) : "&mdash;") + "</b><span>cites / paper</span></div>" +
         '<div><b>' + (stats.h_index != null ? stats.h_index : "&mdash;") + "</b><span>h-index</span></div>" +
       "</div>" +
       "</div>";
+  }
+
+  // SCImago quartiles (assets/data/sjr.json, built by scripts/build_sjr_lookup.py), loaded on first search.
+  var sjr = null, sjrLoad = null;
+  function loadSjr() {
+    if (!sjrLoad) {
+      sjrLoad = fetch("assets/data/sjr.json")
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) { sjr = d; })
+        .catch(function () {});
+    }
+    return sjrLoad;
   }
 
   if (lookupForm) {
@@ -176,16 +203,20 @@ document.addEventListener("DOMContentLoaded", function () {
         (issn ? "&filter=issn:" + issn[1] + "-" + issn[2].toUpperCase()
               : "&filter=type:journal&search=" + encodeURIComponent(q));
       lookupOut.innerHTML = '<p class="meta">Searching…</p>';
-      fetch(url, pending ? { signal: pending.signal } : undefined)
-        .then(function (r) {
+      Promise.all([
+        fetch(url, pending ? { signal: pending.signal } : undefined).then(function (r) {
           if (!r.ok) throw new Error(r.status === 429 ? "Daily lookup limit reached — try again tomorrow." : "Search failed.");
           return r.json();
-        })
-        .then(function (d) {
-          var hits = (d.results || []).filter(function (r) { return r.display_name; });
+        }),
+        loadSjr()
+      ])
+        .then(function (res) {
+          var hits = (res[0].results || []).filter(function (r) { return r.display_name; });
           lookupOut.innerHTML = hits.length
             ? hits.map(lookupCard).join("") +
-              '<p class="meta jr-hit-note">&ldquo;Cites / paper&rdquo; is OpenAlex&rsquo;s two-year mean citedness, similar to but not the same as the official impact factor.</p>'
+              '<p class="meta jr-hit-note">Impact factor is shown for the recommended journals below; for others, check Web of Science. ' +
+              "Quartile: best SCImago quartile" + (sjr && sjr.year ? " (SJR " + esc(sjr.year) + ")" : "") + ". " +
+              "Cites / paper: OpenAlex&rsquo;s two-year mean citedness, similar to but not the same as the impact factor.</p>"
             : '<p class="meta">No journals found for &ldquo;' + esc(q) + "&rdquo;.</p>";
         })
         .catch(function (err) {
