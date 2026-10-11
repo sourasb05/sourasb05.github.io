@@ -102,6 +102,8 @@ def parse_springer(page, base):
 
 
 PARSERS = {"iotj": parse_iotj, "comsoc": parse_comsoc, "springer": parse_springer}
+# Text every real listing page contains; anything else (a bot check, a redesign) counts as a failed fetch.
+MARKERS = {"iotj": "Submission Deadline", "comsoc": "manuscript-submission-date", "springer": "app-card-collection"}
 
 
 def category(title):
@@ -129,6 +131,9 @@ def main():
     for kind, journal, url, keywords in SOURCES:
         try:
             page = fetch(url)
+            if MARKERS[kind] not in page:
+                title = re.search(r"<title>(.*?)</title>", page, re.S)
+                raise ValueError(f"unexpected page ({len(page)} bytes, title: {text(title.group(1)) if title else '-'})")
         except Exception as e:  # one broken source should not stop the others
             kept = [i for i in old if i["journal"] == journal and i["deadline"] >= today.isoformat()]
             print(f"warning: {journal}: {e} (keeping {len(kept)} calls from last run)")
