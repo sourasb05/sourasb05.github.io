@@ -71,6 +71,70 @@ document.addEventListener("DOMContentLoaded", function () {
       f.map(function (p) { return "  " + p[0] + " = {" + p[1] + "}"; }).join(",\n") + "\n}";
   }
 
+  // Other citation styles, built from the same card data. Initials only (no full first names on the page).
+  function esc(t) { return t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+  function meta(card) {
+    var type = card.getAttribute("data-type");
+    var venueLine = text(card, ".pub-venue");
+    var parts = text(card, ".pub-authors").replace(/,?\s+and\s+/, ", ").split(/,\s*/);
+    var people = [];
+    for (var i = 0; i + 1 < parts.length; i += 2) people.push({ last: parts[i], init: parts[i + 1] });
+    var m, d = { type: type, people: people, title: text(card, ".pub-title").replace(/\.$/, ""),
+      venue: text(card, ".venue"), year: (text(card, ".pub-badge").match(/\d{4}/) || [""])[0] };
+    d.vol = (m = venueLine.match(/vol\.\s*(\d+)/)) ? m[1] : "";
+    d.no = (m = venueLine.match(/no\.\s*(\d+)/)) ? m[1] : "";
+    d.pages = (m = venueLine.match(/pp\.\s*([\d:]+)\s*[–-]\s*([\d:]+)/)) ? m[1] + "–" + m[2] : "";
+    d.publisher = (m = venueLine.match(/\b(Springer|IEEE|ACM)\b/)) && type !== "journal" ? m[1] : "";
+    d.note = type === "patent" ? venueLine.replace(/\.$/, "") : "";
+    return d;
+  }
+
+  function list(arr, last) { // "A, B, and C" / "A and B"
+    if (arr.length < 2) return arr.join("");
+    if (arr.length === 2) return arr[0] + " " + last + " " + arr[1];
+    return arr.slice(0, -1).join(", ") + ", " + last + " " + arr[arr.length - 1];
+  }
+
+  var STYLES = {
+    APA: function (d) {
+      var au = d.people.map(function (p) { return p.last + ", " + p.init; });
+      var a = au.length > 1 ? au.slice(0, -1).join(", ") + (au.length > 2 ? "," : "") + " & " + au[au.length - 1] : au[0] || "";
+      var src = d.type === "patent" ? esc(d.note) : (d.type === "journal" ? "<i>" + esc(d.venue) + "</i>" : "In <i>" + esc(d.venue) + "</i>") +
+        (d.vol ? ", <i>" + d.vol + "</i>" + (d.no ? "(" + d.no + ")" : "") : "") + (d.pages ? ", " + d.pages : "");
+      return esc(a) + " (" + d.year + "). " + esc(d.title) + ". " + src + "." + (d.publisher && d.type !== "journal" ? " " + d.publisher + "." : "");
+    },
+    MLA: function (d) {
+      var p = d.people, a = "";
+      if (p.length === 1) a = p[0].last + ", " + p[0].init;
+      else if (p.length === 2) a = p[0].last + ", " + p[0].init + ", and " + p[1].init + " " + p[1].last;
+      else if (p.length > 2) a = p[0].last + ", " + p[0].init + ", et al";
+      var bits = [d.type === "patent" ? esc(d.note) : "<i>" + esc(d.venue) + "</i>"];
+      if (d.vol) bits.push("vol. " + d.vol);
+      if (d.no) bits.push("no. " + d.no);
+      if (d.publisher && d.type !== "journal") bits.push(d.publisher);
+      bits.push(d.year);
+      if (d.pages) bits.push("pp. " + d.pages);
+      return esc(a) + ". \u201c" + esc(d.title) + ".\u201d " + bits.join(", ") + ".";
+    },
+    IEEE: function (d) {
+      var a = list(d.people.map(function (p) { return p.init + " " + p.last; }), "and");
+      var bits = [d.type === "patent" ? esc(d.note) : (d.type === "journal" ? "" : "in ") + "<i>" + esc(d.venue) + "</i>"];
+      if (d.vol) bits.push("vol. " + d.vol);
+      if (d.no) bits.push("no. " + d.no);
+      if (d.pages) bits.push("pp. " + d.pages);
+      bits.push(d.year);
+      return esc(a) + ", \u201c" + esc(d.title) + ",\u201d " + bits.join(", ") + ".";
+    },
+    Chicago: function (d) {
+      var p = d.people, au = p.map(function (x, i) { return i ? x.init + " " + x.last : x.last + ", " + x.init; });
+      var a = list(au, "and");
+      var src = d.type === "patent" ? esc(d.note) : "<i>" + esc(d.venue) + "</i>" + (d.vol ? " " + d.vol : "") + (d.no ? ", no. " + d.no : "");
+      return esc(a) + ". \u201c" + esc(d.title) + ".\u201d " + src + (d.type === "journal" ? " (" + d.year + ")" : "") +
+        (d.pages ? ": " + d.pages : "") + (d.type === "journal" || d.type === "patent" ? "" : (d.publisher ? ". " + d.publisher : "") + ", " + d.year) + ".";
+    }
+  };
+
   document.querySelectorAll(".pub-card").forEach(function (card) {
     var actions = card.querySelector(".pub-actions");
     if (!actions) {
@@ -81,16 +145,37 @@ document.addEventListener("DOMContentLoaded", function () {
     var btn = document.createElement("button");
     btn.type = "button";
     btn.className = "pub-btn code";
-    btn.textContent = "❝ BibTeX";
+    btn.textContent = "❝ Cite";
     btn.setAttribute("aria-expanded", "false");
     actions.appendChild(btn);
+
+    var d = meta(card);
+    var out = { BibTeX: null };
+    Object.keys(STYLES).forEach(function (k) { out[k] = STYLES[k](d); });
+    var names = ["BibTeX", "APA", "MLA", "IEEE", "Chicago"];
 
     var panel = document.createElement("div");
     panel.className = "bib-panel";
     panel.hidden = true;
-    panel.innerHTML = '<pre></pre><button type="button" class="pub-btn bib-copy">Copy</button>';
-    panel.querySelector("pre").textContent = bibtex(card);
+    panel.innerHTML = '<div class="bib-tabs" role="tablist">' + names.map(function (n, i) {
+      return '<button type="button" role="tab" class="bib-tab" aria-selected="' + (i === 0) + '">' + n + "</button>";
+    }).join("") + '</div><pre class="bib-text"></pre><button type="button" class="pub-btn bib-copy">Copy</button>';
     card.appendChild(panel);
+    var pre = panel.querySelector("pre");
+
+    function show(name) {
+      panel.querySelectorAll(".bib-tab").forEach(function (t) {
+        t.setAttribute("aria-selected", t.textContent === name ? "true" : "false");
+      });
+      if (name === "BibTeX") pre.textContent = bibtex(card);
+      else pre.innerHTML = out[name];
+      pre.className = "bib-text" + (name === "BibTeX" ? "" : " wrap");
+    }
+    show("BibTeX");
+    panel.querySelector(".bib-tabs").addEventListener("click", function (e) {
+      var t = e.target.closest(".bib-tab");
+      if (t) show(t.textContent);
+    });
 
     btn.addEventListener("click", function () {
       panel.hidden = !panel.hidden;
@@ -102,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function () {
         copy.textContent = "✓ Copied";
         setTimeout(function () { copy.textContent = "Copy"; }, 1500);
       };
-      if (navigator.clipboard) navigator.clipboard.writeText(panel.querySelector("pre").textContent).then(done, function () {});
+      if (navigator.clipboard) navigator.clipboard.writeText(pre.textContent).then(done, function () {});
     });
   });
 });

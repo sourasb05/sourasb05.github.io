@@ -731,6 +731,10 @@ button.pub-btn { font-family: inherit; cursor: pointer; }
 .pub-card:target { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow-hover); }
 .bib-panel { position: relative; margin-top: 12px; }
 .bib-panel pre { margin: 0; padding: 14px 16px; padding-right: 90px; background: var(--accent-soft); border: 1px solid var(--border); border-radius: 10px; font-size: .78em; line-height: 1.5; overflow-x: auto; white-space: pre; color: var(--text); }
+.bib-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.bib-tab { font: inherit; font-size: .8em; font-weight: 600; padding: 3px 11px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-muted); cursor: pointer; }
+.bib-tab[aria-selected="true"] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+.bib-panel pre.wrap { white-space: pre-wrap; font-family: inherit; font-size: .9em; }
 .bib-panel .bib-copy { position: absolute; top: 8px; right: 8px; }
 .pub-empty { text-align: center; margin: 2em 0; }
 
