@@ -17,7 +17,7 @@ Personal homepage for Sourasekhar Banerjee, built as plain static HTML/CSS (no b
 - `assets/js/main.js` — Mobile menu, dark-mode toggle, news rendering
 - `assets/js/news.js` — **News items — edit this file to add activities** (newest first)
 - `assets/img/profile.png` — Profile photo
-- `assets/doc/Sourasekhar_Banerjee_CV.pdf` — Downloadable CV
+- `assets/CV/academic_cv.pdf` — Downloadable CV
 
 ## Writing a post (Learn Federated Learning with Me)
 
